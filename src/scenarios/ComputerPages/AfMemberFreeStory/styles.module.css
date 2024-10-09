@@ -1,0 +1,331 @@
+.cmn_table {
+    border-spacing: 0;
+}
+.cmn_table_pc{
+    border-collapse: separate;
+}
+.cmn_table tr th,
+.cmn_table tr td {
+    border: 0.5px solid #fff;
+    border-top: 0;
+    vertical-align: middle;
+}
+.star_icon {    
+    min-width: 90px;
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+.star_icon img {   
+    width: 16px;
+    margin-right: 4px;
+}
+.star_icon img:last-child {   
+    margin-right: 0;
+}
+.link_txt {
+    color: #333;
+    text-decoration: underline;
+}
+
+.cmn_table_detail tr td {
+    height: 75px;
+}
+
+.cmn_table_detail_wrap {
+    max-height: 526px;
+}
+.pointer{
+    cursor: pointer;
+}
+
+.bg_gray{
+    background-color: #F2F2F2;
+}
+
+@media screen and (max-width: 991.98px) {
+    .cmn_table td,
+    .cmn_table th {
+        white-space: nowrap;
+        width: auto !important;
+    }
+}
+
+.cmn_table .tb_scenario_header th{
+    border-top: 0;
+    vertical-align: middle;
+}
+
+.td_gray{
+    background: #99C6E4 !important;
+    min-width: 159px;
+}
+.td_bg_gray{
+    background: #99C6E4 !important;
+    color: #333;
+}
+.table_scroll{
+    overflow: auto;
+    height: auto;
+    max-height: 669px;
+    /* width: 1135px; */
+}
+.table_scroll::-webkit-scrollbar {
+    width: 10px; /* width of the entire scrollbar */
+    height: 10px;
+}
+.table_scroll::-webkit-scrollbar-track {
+    background: var(--white);
+    border: 1px solid var(--gray-0);
+    border-radius: 8px;
+}
+.table_scroll::-webkit-scrollbar-thumb {
+    background-color: #CAD8DF; /* color of the scroll thumb */
+    border-radius: 8px; /* roundness of the scroll thumb */
+    border: 0; /* creates padding around scroll thumb */
+}
+.table_thead{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    color: #333;
+}
+.table_body{
+    height: auto;
+    border-collapse: unset !important;
+    border-spacing: 0;
+}
+.table_body tr{
+    height: 56px !important;
+}
+.table_scroll td:first-child, .table_scroll th:first-child {
+    position:sticky;
+    left:0;
+    background-color:#fff;
+  }
+  .table_scroll th:nth-child(2)  { 
+    position:sticky;
+    left:160px;
+}
+.table_scroll td:nth-child(2)  { 
+    position:sticky;
+    left:160px;
+    background-color:#fff;
+}
+.fixedLeft{
+  position: -webkit-sticky;
+  position: sticky;
+  width:120px;
+  left: 0;
+  z-index: 1;
+  word-break: keep-all;
+}
+.personal_history_avatar {
+    height: 55px;
+    width: 55px;
+}
+.themeTabPlacehoderbox{
+    background-color: #fafafa;
+    width: 100%;
+    height: 100px;
+}
+.history_txt_box {
+    width: 180px !important;
+    min-height: 50px !important;
+    padding: 8px 24px !important;
+}
+.not_start {
+    background: #edf0eb !important;
+    color: #333;
+}
+.complete {
+    background: #93F4CB !important;
+    color: #333;
+}
+.processing {
+    background: #D8EDC5 !important;
+    color: #333;
+}
+.th_bg {
+    background-color: #EAF3F8;
+}
+.history_btn {
+    width: 230px;
+    background-color: #FD9A36;
+    box-shadow: 0px 3px 4px rgb(0 0 0 / 14%), 0px 3px 3px rgb(0 0 0 / 12%), 0px 1px 8px rgb(0 0 0 / 20%);
+}
+.input_search_text{
+    display: flex;
+}
+.input_search_text span:first-child{
+    margin-right: 10px;
+}
+
+.mobile_view .title_text{
+    text-align: center;
+}
+
+.mobile_view .input_row{
+    padding: 0 11px 0 23px;
+}
+
+.mobile_view .input_wrapper{
+    padding: 0;
+    align-items: baseline !important;
+}
+
+.mobile_view .history_txt_box{
+    width: 164px !important;
+    min-height: 34px !important;
+}
+
+.mobile_view .input_search_text{
+    margin: 1px 0 0 13px !important;
+    flex-direction: column;
+}
+.mobile_view .input_search_text span:first-child{
+    margin-right: 0;
+}
+
+.mobile_view .input_col_wrapper{
+    padding: 0;
+}
+
+.mobile_view .search_btn_wrapper{
+    text-align: center !important;
+}
+
+.mobile_view .table_scroll td:first-child{
+    min-width: 81px !important;
+    white-space: unset;
+}
+
+.mobile_view .table_scroll th:first-child {
+    min-width: 81px !important;
+    white-space: unset;
+}
+
+.mobile_view .table_scroll th:nth-child(2) {
+    min-width: 81px !important;
+    left: 89px !important;
+    white-space: unset;
+}
+
+.mobile_view .table_scroll td:nth-child(2) {
+    left: 89px !important;
+    min-width: 81px !important;
+    max-width: 81px !important;
+    word-wrap: break-word;
+}
+
+.mobile_view .table_scroll td:not(:first-child) {
+    min-width: 89px !important;
+    white-space: unset;
+}
+.mobile_view .table_scroll th:not(:first-child) {
+    min-width: 89px !important;
+    white-space: unset;
+}
+.mobile_view .table_scroll th:not(:nth-child(2)) {
+    min-width: 89px !important;
+    white-space: unset;
+    padding: 3px 4px !important;
+}
+
+.mobile_view .cm_bg_box_padding{
+    padding: 20px 18px;
+}
+
+.tablet_view{
+    padding: 20px 17px;
+}
+
+.tablet_view .title_text{
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 18px !important;
+}
+
+.tablet_view .input_col_wrapper{
+    margin-bottom: 7px;
+}
+
+.tablet_view .history_txt_box {
+    width: 164px !important;
+    min-height: 34px !important;
+    padding: 8px 14px !important;
+}
+
+.tablet_view .history_btn {
+    width: 230px;
+    height: 40px;
+    background-color: #E98300;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.tablet_view .cm_bg_box_padding{
+    padding: 22px 21px;
+}
+
+.tablet_view .tablet_table{
+    padding: 0;
+}
+
+.tablet_view .thead_tr_1_th_height_tablet{
+    padding: 0;
+    height: 33px;
+}
+
+.tablet_view .thead_tr_2_th_height_tablet{
+    padding: 0;
+    height: 59px;
+}
+
+.tablet_view .table_tbody_tr_height{
+    height: 50px !important;
+}
+
+.tablet_view .col_1_2_width{
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.tablet_view .col_1_2_text_wrap{
+    white-space: normal;
+    word-wrap: break-word;
+    padding: 5px;
+}
+
+.tablet_view .col_2_left{
+    left: 80px !important;
+}
+
+.tablet_view .table_scroll th:nth-child(2)  { 
+    left: 0px;
+}
+
+.tablet_view .col_content_width{
+    min-width: 105px !important;
+    max-width: 105px !important;
+    white-space: normal;
+}
+
+.tablet_view .col_1_2_width_selected{
+    min-width: 115px !important;
+    max-width: 115px !important;
+}
+
+.tablet_view .col_2_left_selected{
+    left: 115px !important;
+}
+
+.tablet_view .col_content_width_selected{
+    min-width: 150px !important;
+    max-width: 150px !important;
+    white-space: normal;
+}
+
+.tablet_view .table_scroll::-webkit-scrollbar {
+    height: 12px;
+}

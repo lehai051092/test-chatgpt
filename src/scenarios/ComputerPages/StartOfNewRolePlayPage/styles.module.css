@@ -1,0 +1,106 @@
+.step_head {
+  background: var(--blue-card);
+  color: var(--white);
+  padding: 9px 16px;
+  border-radius: 25px;
+  margin: 0 auto 0 24px;
+}
+
+.step_head2 {
+  margin-left: 32px;
+}
+
+.spet_head2_color_change {
+  background-color: var(--grey-goose);
+}
+
+.step_text {
+  margin: 5px auto 0 8px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.step_text_gray {
+  color: var(--grey-goose);
+}
+
+.step_list {
+  display: flex;
+  flex-direction: column;
+}
+
+.step_lists:first-child span.step_head:after {
+  display: inline-block;
+  content: "";
+  border-top: .3rem solid var(--grey-goose);
+  width: 100%;
+  margin: 0 1rem;
+  transform: translateY(0.5rem);
+  position: absolute;
+}
+
+.step_lists .step2_active:after {
+  border-color: var(--cerulean) !important;
+}
+
+.spinner {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 6%;
+  left: 73%;
+  width: 27px;
+  height: 27px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  border-top-color: #000000;
+  animation: spinner .8s linear infinite;
+  margin: 0 auto;
+  right: 0%;
+}
+
+.start_role_play_title {
+  margin-bottom: 25px;
+}
+
+.let_choose_lesson {
+  padding-left: 21px;
+  font-size: 21px;
+}
+
+.re_role_playing_btn {
+  background: #E78321;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  padding: 10px 0;
+  margin-bottom: 25px;
+  width: calc(33% - 64px);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 22px;
+}
+@media screen and (max-width: 1024px) {
+  .re_role_playing_btn {
+    display: block;
+    width: 265px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 767px) and (min-width: 375px) {
+  .start_of_new_role_playing_sp {
+    text-align: center;
+    margin: 10px 0 5px 0 !important;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .start_of_new_role_playing_sp > span {
+    display: block;
+    margin-left: 0 !important;
+    font-size: 18px;
+    line-height: 29px;
+  }
+}

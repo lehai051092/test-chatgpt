@@ -1,0 +1,86 @@
+.confirm_dialog_width{
+    max-width: 755px !important;
+    width: 755px !important;
+    height: 614px!important;
+    margin: 0 auto !important;
+    padding: 16px !important;
+    border-radius: 10px !important;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1) !important;
+}
+.cancel{
+    position: absolute;
+    cursor: pointer;
+    right: 2%;
+    top: 2%;
+}
+.confirm_dialog_width button {
+    border-radius: 12px;
+}
+.confirm_dialog_width button:first-child {
+    border: 2px solid #037599;
+}
+.dialog_title_box {
+    overflow: initial !important;
+}
+.no_btn {
+    background: var(--alice-blue);
+    color: var(--blue-card);
+    border: 1px solid var(--cerulean);
+
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-left: 9px;
+    height: 55px;
+    width: 179px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.yes_button{
+    background: #00A5D9;
+    border: 2px solid #037599;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-right: 9px;
+    height: 55px;
+    width: 179px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.chrome_or_edge{
+    display: flex;
+    display: -webkit-flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: 26px;
+}
+
+.chrome_or_edge_font{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.sub_detail{
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 29px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+}

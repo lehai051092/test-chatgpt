@@ -1,0 +1,26 @@
+.ie_supported_page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ie_supported_page div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ie_supported_page>div>.logo {
+    width: 100px;
+    height: 50px;
+}
+
+.ie_supported_page>div>.title {
+    margin: 0;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+.toggleIcon {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    display: block;
+}
+
+.toggleIconExpand {
+    background: url('../../../../property/images/close_keyword_list.png') no-repeat center center;
+    background-size: 25px 25px;
+}
+
+.toggleIconFold {
+    background: url('../../../../property/images/open_keyword_list.png') no-repeat center center;
+    background-size: 25px 25px;
+}

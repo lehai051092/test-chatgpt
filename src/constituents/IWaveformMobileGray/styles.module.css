@@ -1,0 +1,25 @@
+.wave_form{
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 50px;
+    z-index: 2;
+}
+
+.wave_form_vertical{
+    width: 86px;
+    height: 86px;
+    border: 6px solid #99D1E7;
+    margin-top: 3px;
+}
+
+.wave_form_landscape{
+    width: 46px;
+    height: 46px;
+    border: 4px solid #99D1E7;
+}
+
+.wave_form_vertical_tablet{
+    width: 69px;
+    height: 69px;
+    border: 4px solid #99D1E7;
+}

@@ -1,0 +1,53 @@
+.scroll_bar {
+    background: var(--blue-light); 
+    border-radius: 10px;
+    color: var(--black);
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid var(--light-purple);
+    align-items: center;
+    padding: 8px 0px 8px 80px;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.scroll_bar::before {
+    content:'全セクション';
+    position: absolute;
+    font-size: 10px;
+    left: 8px;
+    background:url('../../property/icons/score_flag.png') 18px 18px no-repeat;
+    background-position: center 7px;
+    height: 80%;
+    display: flex;
+    align-items: end;
+    color: #808080;
+}
+
+.scroll_bar_hide_before:before {
+    display: none !important;
+}
+
+.scroll_bar.pass {
+    background-color: var(--blue-light);
+    color: var(--dune);
+}
+.scroll_bar img {
+    max-width: 100%;
+}
+.score_star img {
+    margin-right: 8px;
+} 
+
+/* @media screen and (max-width: 1399.98px) {
+    .scroll_bar{
+        padding: 16px 24px;
+    }
+} */
+.selectScore{
+    background-color: rgba(233, 131, 0, 0.2) !important;
+    /* color: var(--dune) !important; */
+    border: 2px solid #E98300 !important;
+}

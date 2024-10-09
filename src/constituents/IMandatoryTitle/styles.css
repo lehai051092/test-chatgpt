@@ -1,0 +1,17 @@
+
+.cmn-sub-title {
+    background: var(--darkGray);
+    display: inline-block;
+    border-radius: 6px;
+    padding: 4px 6px 2px;
+    color: #FAF7F2;
+    font-size: 12px;
+}
+.trainee-sub-title {
+    background: #8E97FD;;
+}
+.persona-sub-title {
+    background: #FAF7F2;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: var(--darkGray);
+}

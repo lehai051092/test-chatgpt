@@ -1,0 +1,40 @@
+.slide_card_wrapper{
+    margin-bottom: 8px;
+    padding: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+.slide_card_wrapper:last-child {
+    margin-bottom: 0;
+}
+.slide_card_wrapper .show_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slide_card_wrapper .show_wrapper .slide_card_button{
+    border: none;
+    background: transparent;
+    color: #8E97FD;
+    display: flex;
+    align-items: center;
+}
+
+.side_scenarios_list li {
+    background: #63A6DC;
+    padding: 8px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15), inset 0px -1px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    color: var(--white);
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.side_scenarios_list li.add {
+    background: #FFFFFF;
+    border-radius: 8px 8px 20px 20px;
+    justify-content: center;
+}

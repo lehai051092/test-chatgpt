@@ -1,0 +1,152 @@
+.main_div{
+  box-sizing: border-box;
+  border-radius: 0 0 5px 5px;
+  background: #DBE9F1;
+  overflow-y: scroll;
+}
+.title_div{
+  background-color: #CCE6F3;
+  padding: 10px 40px;
+  border-bottom: 1px solid var(--light-grey-3);
+}
+.msger{
+  min-height: 545px;
+  max-height: 545px;
+  overflow-y: auto;
+  background-color: #DBE9F1;
+  padding: 24px 64px;
+    
+  /* background: url(../../../property/images/chat_background.png); */
+}
+.msger::-webkit-scrollbar {
+  width: 16px;
+}
+.msger::-webkit-scrollbar-track {
+  background: rgba(230, 230, 230, 0.5);
+}
+.msger::-webkit-scrollbar-thumb {
+  background: var(--light-grey-7);
+  border-radius: 10px; /* roundness of the scroll thumb */
+}
+
+.chat_icon{
+    width: 22px;
+    height: 17px;
+}
+.bot_person{
+  width: 30px;
+}
+
+.msger_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 2px solid #ddd;
+  background: #eee;
+  color: #666;
+}
+
+.msger_chat {
+  /* flex: 1;
+  overflow-y: auto; */
+  /* padding: 10px; */
+}
+.msg {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+.msg:last-of-type {
+  margin: 0;
+}
+.msg_img {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-top: 16px;
+}
+.msg_bubble {
+  max-width: 450px;
+  padding: 12px;
+  background: var(--white);
+  border-radius: 15px;
+}
+.msg_bubble b{
+  background: #FDE936;
+  padding: 0.1rem;
+  color: black;
+}
+.msg_text {
+  color: #404040;
+  font-size: 14px;
+}
+.msg_info_name {
+  color: #fff;
+  font-size: 12px;
+}
+.msg_info_time {
+  font-size: 0.85em;
+}
+
+.left_point_msg{
+  margin-top: 33px;
+}
+.right_point_msg{
+  margin-top: 10px;
+  margin-left: -2px;
+}
+
+.right_msg {
+  flex-direction: row-reverse;
+  position: relative;
+}
+.right_msg:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -18px;
+  margin-top: -12px;
+  border: 12px solid transparent;
+  border-left: 10px solid #FFF;
+}
+.right_msg .msg_bubble {
+  background: #fff;
+  max-width: 450px;
+  padding: 12px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.right_msg .msg_img {
+  margin: 0 0 0 10px;
+} 
+.right_msg  .msg_info {
+  text-align: right;
+}
+.right_msg  .msg_info_name {
+  color: var(--white);
+  font-size: 10px;
+}
+.msg_highlight{
+  background: #E98300;
+  padding: 0.1rem;
+}
+@media (max-width: 991.98px){
+  .title_div,
+  .msger{
+    padding: 8px 20px;
+  }
+}
+
+.main_div_tablet .title_div{
+  height: 32px;
+  line-height: 31px;
+  padding: 0px 16px;
+}
+
+.main_div_tablet .msger{
+  min-height: 645px;
+  max-height: 645px;
+}

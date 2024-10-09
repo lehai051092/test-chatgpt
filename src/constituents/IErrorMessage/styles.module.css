@@ -1,0 +1,5 @@
+.error_message p {
+    margin: 8px 0 0;
+    color: var(--red);
+    font-weight: bold;
+}

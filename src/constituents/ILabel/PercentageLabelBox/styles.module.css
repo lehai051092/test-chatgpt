@@ -1,0 +1,56 @@
+/* 
+.percent_box { 
+    min-height: 36px;
+    display: table;
+    border: 1px solid var(--blue-card);
+    border-radius: 4px;
+    align-items: center;
+}
+.percent_box>p {
+    display: table-cell;
+    margin-bottom: 0;
+    height: 100%;
+    padding: 4px;
+    vertical-align: middle;
+}
+.percent_box>p:first-child {
+    border-right: 1px solid var(--blue-card);
+    background: #E9FAFF;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+} */
+
+.percent_box p:last-child span:first-child {
+    font-size: 30px;
+    margin: 0 8px 0 24px;
+}
+.percent_box p:last-child span:last-child {
+    font-size: 20px;
+}
+
+@media (max-width: 767px) and (min-width: 375px) {
+    .percent_box {
+        margin-top: 3px !important;
+    }
+    .percent_box p:first-child {
+        font-size: 14px;
+        line-height: 22px;
+        width: 40%;
+        text-align: end;
+    }
+    .percent_box p:last-child {
+        width: 60%;
+    }
+    .percent_box p:last-child span:first-child {
+        font-size: 30px;
+        line-height: 48px;
+        margin: 0 12px 0 8px;
+        min-width: 61px;
+        display: inline-block;
+        text-align: end;
+    }
+    .percent_box p:last-child span:last-child {
+        font-size: 20px;
+        line-height: 32px;
+    }
+}

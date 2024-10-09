@@ -1,0 +1,117 @@
+.main_div{
+    border: 1px solid var(--light-grey-3);
+    box-sizing: border-box;
+    border-radius: 5px 5px 0px 0px;
+    background: var(--alice-blue);
+    width: 100%;
+  }
+  .title_div{
+    background-color: var(--light-grey-2);
+    padding: 10px 64px;
+    border-bottom: 1px solid var(--light-grey-3);
+  }
+  .msger{
+    max-height: 460px;
+    overflow-y: auto;
+    background-color: var(--alice-blue);    
+    padding: 24px 64px;
+      
+    /* background: url(../../../assets/images/chat_background.png); */
+  }
+  .msger::-webkit-scrollbar {
+    width: 16px;
+  }
+  .msger::-webkit-scrollbar-track {
+    background: rgba(230, 230, 230, 0.5);
+  }
+  .msger::-webkit-scrollbar-thumb {
+    background: var(--light-grey-7);
+    border-radius: 10px; /* roundness of the scroll thumb */
+  }
+  
+  .chat_icon{
+      width: 22px;
+  }
+  .bot_person{
+    width: 30px;
+  }
+  
+  .msger_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+    background: #eee;
+    color: #666;
+  }
+  
+  .msger_chat {
+    /* flex: 1;
+    overflow-y: auto; */
+    /* padding: 10px; */
+  }
+  .msg {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 24px;
+  }
+  .msg:last-of-type {
+    margin: 0;
+  }
+  .msg_img {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    background: var(--white);
+    border-radius: 50%;
+  }
+  .msg_bubble {
+    max-width: 450px;
+    padding: 16px;
+    background: var(--white);
+    border: 1px solid var(--light-grey-7);
+    border-radius: 15px 15px 15px 0px;
+  }
+  .msg_text {
+    font-size: 14px;
+  }
+  .msg_info {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    margin-bottom: 8px;
+  }
+  .msg_info_name {
+    color: var(--cerulean);
+    font-size: 10px;
+  }
+  .msg_info_time {
+    font-size: 0.85em;
+  }
+  
+  .left_msg .msg_bubble {
+    /* border-bottom-left-radius: 0; */
+  }
+  
+  .right_msg {
+    flex-direction: row-reverse;
+  }
+  .right_msg .msg_bubble {
+    background: var(--cerulean);
+    color: var(--white);
+    border-radius: 15px 15px 0px 15px;
+  }
+  .right_msg .msg_img {
+    margin: 0 0 0 10px;
+  } 
+  .right_msg  .msg_info {
+    text-align: right;
+  }
+  .right_msg  .msg_info_name {
+    color: var(--white);
+    font-size: 10px;
+  }
+  .msg_highlight{
+    background: #E98300;
+    padding: 0.1rem;
+  }

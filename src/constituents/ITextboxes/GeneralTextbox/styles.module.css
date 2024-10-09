@@ -1,0 +1,16 @@
+.general_textbox {
+    width: 100%;
+    font-size: 14px;
+    border-color: var(--white);
+    padding: 0;
+    border-radius: 0;
+}
+.general_textbox::placeholder {
+    font-size: 14px;
+    color: var(--disable-low);
+}
+.general_textbox:focus {
+    border-bottom: 1px solid var(--disable-low) !important;
+    box-shadow: initial !important;
+    border-color: var(--white);
+}

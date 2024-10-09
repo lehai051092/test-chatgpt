@@ -1,0 +1,109 @@
+.video-chat-checkbox-row {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ededed;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.8);
+    position: relative;
+    left: -30px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.video-chat-checkbox-row > div {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.video-chat-checkbox-row > div:last-child {
+    margin-top: 10px;
+}
+
+.video-chat-checkbox-row > label{
+    cursor: initial !important;
+}
+
+.mark-on-title, .mark-on-title-check {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: #D6D8D9;
+    top: -1px;
+    left: -1px;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+.mark-on-title-check {
+    background: url('../../../../property/images/keyword_check.svg') no-repeat #00A5D9 3px 4px !important;
+}
+
+.video-chat-keyword-main {
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    left: -25px;
+    width: calc(100% + 46px);
+    padding-left: 30px;
+    height: 50vh;
+}
+
+.video-chat-process-content > label:first-child {
+    margin-right: 8px !important;
+    width: calc(100% - 50px);
+}
+
+.video-chat-process-text {
+    color: #4d4d4d;
+}
+
+.video-chat-toggle-icon {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.video-chat-keyword-expand {
+    background: url('../../../../property/images/close_keyword_list.png') no-repeat center center;
+    background-size: 30px 30px;
+}
+
+.video-chat-keyword-fold {
+    background: url('../../../../property/images/open_keyword_list.png') no-repeat center center;
+    background-size: 30px 30px;
+}
+
+@media (max-width: 1200px) {
+    .video-chat-keyword-expand {
+        background-size: 25px 25px;
+    }
+    
+    .video-chat-keyword-fold {
+        background-size: 25px 25px;
+    } 
+}
+.badge_keyword_items{
+    font-size: 12px;
+    line-height: 19px;
+    padding: 5px;
+    margin-right: 5px;
+    background-color: #D6D8D9;
+    color: #333;
+    font-weight: 500 !important;
+    border-radius: 0 !important;
+}
+
+.selected_badge_keyword_items{
+    font-size: 12px;
+    line-height: 19px;
+    padding: 5px;
+    margin-right: 5px;
+    background-color: #00A5D9;
+    font-weight: 500 !important;
+    border-radius: 0 !important;
+}
+
+.video-chat-process-name{
+    font-weight: 700;
+}

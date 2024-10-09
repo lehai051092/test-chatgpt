@@ -1,0 +1,284 @@
+{
+    "login_page": {
+		"title": "Welcome to the recruiter training AI (pilot version). Please login.",
+		"username": {
+			"title": "Employee ID*",
+			"placeholder": "Enter Empolyee ID",
+			"require": "Please Enter Valid Employee ID"
+		},
+		"password": {
+			"title": "Password*",
+			"placeholder": "Enter Password",
+			"require": "Please Enter Valid Password"
+		},
+		"forgot password": "Forgot Password?",
+		"success message": "Password Changed Successful.",
+        "login button title":"Sign In"
+	},
+    "selectionPageHeader" : {
+        "start_of_new_role_playing" : "Start of New Role-Playing",
+        "recruiter_selection" : "Course Selection",
+        "section_selection" : "Section Selection"
+    },
+    "sidebar" : {
+        "recruiter_training_ai" : "Recruiter Training AI",
+        "e_learning" : "e-Learning",
+        "role_playing_with_ai" : "Role-Playing with AI",
+        "check_history" : "Check History",
+        "admin_screen" : "Admin Screen",
+        "spouse_story" : "Spouse Story",
+        "children_story" : "Children's Story",
+        "one_person_story" : "One Person Story",
+        "synonym_registration" : "Synonym Registration"
+    },
+    "general": {
+        "cancel": "Cancel",
+        "del": "Delete",
+        "edit": "Edit",
+        "save": "Save",
+        "update": "Update",
+        "date" : {
+            "days": {
+                "mon" : "Mon",
+                "tue" : "Tue",
+                "wed" : "Wed",
+                "thurs" : "Thurs",
+                "fri" : "Fri",
+                "sat" : "Sat",
+                "sun" : "Sun"
+            },
+            "year" : "Year",
+            "month" : "Month",
+            "day" : "Day"
+        },
+        "return" : "Back"
+    },
+    "persona": {
+        "head_text" : "Please select a persona",
+        "male" : "Male",
+        "female" : "Female",
+        "product_detail" : "Product Detail",
+        "view_detail" : "View Detail",
+        "any_folder" : "Any Folder",
+        "scenario_name" : "Scenario Name",
+        "head_text_check_content" : "Check the content of scenario and start training.",
+        "letter_problem" : "Letter Problem",
+        "time_required" : "Time required",
+        "context" : "Context",
+        "context_text" : "A description of the context. Some information about scenarios that help users understand the reason for the conversation, the client, and so on.",
+        "start_the_scenario" : "Start the scenario"
+    },
+    "training":{
+        "table_head_text_trainee" : "Trainee",
+        "table_head_text_persona" : "Persona",
+        "table_head_text_scenario" : "Scenario",
+        "table_head_text_date" : "Last Date and Time",
+        "table_head_text_rate" : "Final response rate",
+        "scenario_selection" : "Scenario selection",
+        "scenario_history" : "Scenario History",
+        "training_search_button" : "Search",
+        "training_select_box_text" : "Select"
+    },
+    "chat" : {
+        "text_reply" : "Reply",
+        "button_check_result" : "Finish and check the result",
+        "head_text_persona_info" : "Persona information",
+        "product_detail" : "Product Details",
+        "basic_information" : "Basic Information",
+        "registered_content" : "Register Content",
+        "contractor" : "Contractor",
+        "remarks_information" : "Remarks Information",
+        "explanatory_material" : "Explantery Material",
+        "tips" : "Tips",
+        "typing_message_alert" : "I sent you this letter, did you see it?"
+    },
+    "scenario" : {
+        "text_unsave_change" : "There are unsaved changes",
+        "scenario_name" : "Scenario name",
+        "private" : "Private",
+        "folder1" : "Folder 1",
+        "hide_details" : "Hide Details",
+        "add_scenario" : "Add scenario",
+        "scenario2" : "Scenario 2",
+        "release" : "Release",
+        "mandatory_title" : {
+            "scenario_no" : "Scenario No",
+            "scenario_name" : "Scenario Name",
+            "folder" : "Folder",
+            "note" : "Note",
+            "explanatory_material" : "Explanatory Material",
+            "add_explanatory_material" : "Added explanatory material",
+            "tips" : "Tips",
+            "control_number" : "Control number"
+        },
+        "please_enter_hint" : "Please enter a hint",
+        "persona" : "Persona",
+        "trainee" : "Trainee",
+        "letter" : "Letter",
+        "feed" : "Feed",
+        "keyword" : "Keyword",
+        "please_enter_message" : "Please enter a message",
+        "add_message" : "Add message",
+        "start_of_new_role_playing" : "Start of new role-playing",
+        "recruiter_selection" : "Recruiter selection",
+        "section_selection" : "Section selection",
+        "return" : "Back",
+        "edit" : "Edit",
+        "reflect" : "Reflect",
+        "role_play_started" : "Role Play Started",
+        "progress" : "Progress",
+        "appointment_acquisition_call": "Call to get appointment",
+        "number_of_implementations": "No.Of Implementation",
+        "times" : "Times",
+        "maximum_achievement_rate": "Correct Answer Rate",
+        "play_time": "Play time",
+        "p_70_text" : "Let's do our best today!",
+        "p_over_70_text" : "Do your best a little more!"
+    },
+    "rateOfRisk" : {
+        "header_1" : "Long-term Care Risk Rate Occurrence",
+        "header_2" : "-Purpose of This Section-",
+        "s_header_1" : "Process",
+        "s_header_2" : "Point",
+        "s_header_3" : "Sale Tools",
+        "frequency_of_long_term_care" : "Frequency of Long-term Care",
+        "lifespan_and_healthy_lifespan" : "Lifespan and Healthy Lifespan",
+        "causes_of_long_term_care" : "Causes of Long-term Care",
+        "long_term_care_period" : "Long-term Care Period",
+        "proceed_to_the_next" : "Role-Play Implementation Screen",
+        "time": "Time",
+        "correct_answer_rate" : "Correct answer rate",
+        "accepting" : "Accepting",
+        "wednesday" : "Wednesday"
+    },
+    "setting" : {
+        "synonym" : "Synonym",
+        "search_keywords_synonym" : "Search for keywords and synonyms",
+        "add_keyword" : "Add keywords",
+        "export" : "Export",
+        "keyword" : "Keyword",
+        "add_synonym" : "Add Synonyms"
+    },
+    "recruiter" :
+    {
+        "recruiter_slection" : "Recruiter’s Name",
+        "curriculum" : "Curriculum",
+        "long_term_insurance_practice" : "Reliable Long-term Care Insurance_Practice",
+        "course" : "Course",
+        "role_playing_training" : "Role-Playing Training",
+        "role_playing_test" : "Role-Playing Test",
+        "progress_rate" : "Progress Rate",
+        "decision" : "Decision",
+        "view_details" : "View Details",
+        "indicate" : "表示する;;;;"
+    },
+    "aiscore" : {
+        "ai_scoring_result" : "AI Scoring Result",
+        "cicle_percentage" : {
+            "header_1": "Correct Answer Rate",
+            "header_2": "Personal Best of Time"
+        },
+        "chartbar" : {
+            "header" : "Implementation History",
+            "line_header" : "Success Criteria"
+        },
+        "score_by_process" : "Score (By Process)",
+        "process" : "Process",
+        "evaluation" : "Evaluation",
+        "point" : "Point",
+        "card_title" : {
+            "long_term_care_frequency" : "Frequency of Long-term Care",
+            "lifespan_and_healthy_lifespan" : "Lifespan and Healthy Lifespan",
+            "long_term_care_causes" : "Causes of Long-term Care",
+            "long_term_care_period" : "Long-term Care Period"
+        },
+        "disease_called_cancer" : "Cancer Disease",
+        "two_in_one" : "1 in 2 person",
+        "cancer_incidence" : "Cancer Occurance Rate",
+        "higher_with_age" : "Higher with age",
+        "average_no_of_days_hospital" : "Average number of days in hospital",
+        "elderly" : "Elder",
+        "utterance" : "Conversation history",
+        "chat_history" : "チャット履歴"
+    },
+    "videochat" : {
+        "role_play_implmenting" : "Role-Play Implmenting",
+        "ongoing_section" : "Ongoing Section",
+        "current_long_term_care_insurance" : "Current Status of Long-term Care insurance",
+        "process" : "Process",
+        "frequency_long_term_care" : "Frequency of Long-term Care",
+        "lifespan_and_helthy_lifespan" : "Lifespan and Healthy Lifespan",
+        "causes_long_term_care" : "Causes of Long-term Care",
+        "period_long_term_care" : "Long-term Care Period",
+        "sale_tools" : "Sale Tools",
+        "break" : "Break",
+        "resume" : "Resume",
+        "score" : "Score",
+        "reply" : "Reply",
+        "let_get_started" : "Customer role : Let’s get stated.",
+        "to_score_confirmation": "Do you want to score?",
+        "start_button": "Start"
+    },
+    "historycheck" : {
+        "history_confirmation" : "History Confirmation",
+        "output" : "Output",
+        "role_play_test" : "Role-Play Test",
+        "section_name" : "Scetion Name",
+        "progress" : "Progress (Correct Answer Rate)",
+        "status" : "Status",
+        "attendance" : "受講中(16セクション/24セクション)",
+        "manager_screen": "Manager Screen",
+        "agency_code": "Agency Code(7 Digits)",
+        "please_enter_agency_code": "Please enter agency code",
+        "check_on": "If you want to check on a recruiter basis",
+        "recruiter_code": "Recruiter code",
+        "please_enter_recruiter_code": "Please enter the recruiter code",
+        "search": "Search",
+        "recruiter_list": "Recruiters List",
+        "recruiter_name": "Recruiter's Name"
+    },
+    "registerSynonyms": {
+        "register_synonyms": "Register Synonyms",
+        "register_synonyms_search_keywords": "Search for keywords and synonyms",
+        "register_synonyms_add_keywords": "Add keywords",
+        "register_synonyms_export": "Export",
+        "register_synonyms_keywords_label": "Keyword",
+        "register_synonyms_label": "Synonym",
+        "register_synonyms_add_synonyms": "Add Synonyms",
+        "register_synonyms_save": "Save",
+        "register_synonyms_cancel": "Cancel"
+    },
+    "role_play_creation" : {
+        "message": "Message",
+        "process" : {
+            "process_name" : "Process Name",
+            "process": "Process",
+            "point" : "Point",
+            "material_tool" : "Material to use・Tool",
+            "add_process" : "Add Process"
+        },
+        "script" : {
+            "recruiter" : "Recruiter",
+            "keyword" : "Keyword",
+            "persona" : "Persona",
+            "add_message" : "Add Message",
+            "add_to" : "Add To"
+        },
+        "delete" : "Delete",
+        "add_file" : "Add File",
+        "confirm_dia" : {
+            "header" : "Do you want to save your changes?"
+        },
+        "upload_dia" : {
+            "header" : "Upload File",
+            "title" : "Click here to upload",
+            "cancel" : "Cancel",
+            "upload" : "Upload"
+        },
+        "yes" : "Yes",
+        "no" : "No"
+    },
+    "evaluation" : { 
+        "role_playing_creation" : "Role-Play Creation"
+    }
+}

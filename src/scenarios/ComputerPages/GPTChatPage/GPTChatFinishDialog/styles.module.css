@@ -1,0 +1,64 @@
+.confirm_dialog_width{
+    width: 536px;
+    margin: 0 auto !important;
+    padding: 16px !important;
+    border-radius: 10px !important;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1) !important;
+}
+.close_role_play_btn {
+    background: #DC8827;
+    border: 1px solid #C5C5C5;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    height: 46px;
+    border-radius: 30px;
+    width: 174px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 22px;
+    margin-right: 5px;
+    line-height: 47px;
+}
+.close_role_play_btn img{
+    width: 30px;
+    height: 30px;
+    margin-left: 9px;
+    margin-bottom: 7px;
+}
+.confirm_dialog_width button:first-child {
+    border: 2px solid #037599;
+}
+.dialog_title_box {
+    font-size: 20px;
+}
+.flex_center {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.no_btn {
+    width: 100%;
+    min-height: 55px;
+    background: #FFFFFF;
+    display: inline-block;
+    padding: 8px 16px;
+    color: #333333;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid var(--cerulean);
+    font-weight: bold; 
+    margin-right: 0 !important;
+    box-shadow: 2px 2px 7px #808080;
+}
+.yes_btn{
+    box-shadow: 2px 2px 7px #808080;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+    .confirm_dialog_width{
+        width: 90vw;
+    }
+    .dialog_title_box {
+        font-size: 16px;
+    }
+}

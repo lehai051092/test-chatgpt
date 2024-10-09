@@ -1,0 +1,301 @@
+{
+    "login_page": {
+		"title": "募集人育成AI",
+		"username": {
+			"title": "従業員ID*",
+			"placeholder": "従業員IDを入力してください",
+			"require": "正しい従業員IDを入力してください"
+		},
+		"password": {
+			"title": "パスワード*",
+			"placeholder": "パスワードを入力する",
+			"require": "正しいパスワードを入力してください"
+		},
+		"forgot password": "パスワードをお忘れですか？",
+		"success message": "パスワードの変更に成功しました。",
+        "login button title": "ログイン"
+	},
+    "selectionPageHeader" : {
+        "start_of_new_role_playing" : "新規ロープレの開始",
+        "recruiter_selection" : "コースの選択",
+        "section_selection" : "セクションの選択"
+    },
+    "sidebar" : {
+        "recruiter_training_ai" : "募集人育成AI",
+        "e_learning" : "e-Learning",
+        "role_playing_with_ai" : "AIとロープレ",
+        "individual_role_play": "人とロープレ",
+        "check_history" : "自分の履歴",
+        "admin_screen" : "全社の履歴",
+        "spouse_story" : "配偶者スト<br>ーリー",
+        "spouse_story1" : "ロープレ作成",
+        "children_story" : "お子様スト<br>ーリー",
+        "one_person_story" : "おひとり様<br>ストーリー",
+        "synonym_registration" : "類義語登録​",
+        "user_manual": "募集資材",
+        "help_center": "ヘルプセンター",
+        "role_play_log": "GPTログ",
+        "censored_characters": "検閲文字"
+    },
+    "general": {
+        "cancel": "キャンセル",
+        "del": "削除",
+        "edit": "JP Edit",
+        "save": "保存",
+        "update": "JP Update",
+        "date" : {
+            "days": {
+                "mon" : "月",
+                "tue" : "火",
+                "wed" : "水",
+                "thurs" : "木",
+                "fri" : "金",
+                "sat" : "土",
+                "sun" : "日"
+            },
+            "year" : "年",
+            "month" : "月",
+            "day" : "日"
+        },
+        "return" : "戻る"
+    },
+    "persona": {
+        "head_text" : "ペルソナを選択してください。",
+        "male" : "男性",
+        "female" : "Female",
+        "product_detail" : "商品内容",
+        "view_detail" : "詳細の表示",
+        "any_folder" : "任意のフォルダ",
+        "scenario_name" : "シナリオ名",
+        "head_text_check_content" : "シナリオの内容確認し、トレーニングを開始してください。",
+        "letter_problem" : "手紙の問題",
+        "time_required" : "所用時間",
+        "context" : "コンテキスト",
+        "context_text" : "コンテキストの説明。 ユーザーが会話の理由、クライアントなどを理解するのに役立つシナリオに関するいくつかの情報。",
+        "start_the_scenario" : "シナリオを開始"
+    },
+    "training":{
+        "table_head_text_trainee" : "研修者",
+        "table_head_text_persona" : "ペルソナ",
+        "table_head_text_scenario" : "シナリオ",
+        "table_head_text_date" : "最終実施日時",
+        "table_head_text_rate" : "最終回答率",
+        "scenario_selection" : "シナリオ選択",
+        "scenario_history" : "シナリオ実施履歴",    
+        "training_search_button" : "検索",
+        "training_select_box_text" : "選択する"
+    },
+    "chat" : {
+        "text_reply" : "返信",
+        "button_check_result" : "終了して結果を確認する",
+        "head_text_persona_info" : "ペルソナ情報",
+        "product_detail" : "Product Details",
+        "basic_information" : "Basic Information",
+        "registered_content" : "Register Content",
+        "contractor" : "Contractor",
+        "remarks_information" : "Remarks Information",
+        "explanatory_material" : "説明資料",
+        "tips" : "ヒント",
+        "typing_message_alert" : "このお手紙を送りしたのですが、ご覧いただけましたでしょうか？"
+    },
+    "scenario" : {
+        "text_unsave_change" : "保存されていない変更があります",
+        "scenario_name" : "シナリオ名",
+        "private" : "非公開",
+        "folder1" : "フォルダ1",
+        "hide_details" : "詳細を非表示",
+        "add_scenario" : " シナリオを追加",
+        "scenario2" : "シナリオ 2",
+        "release" : "公開",
+        "mandatory_title" : {
+            "scenario_no" : "シナリオ№",
+            "scenario_name" : "シナリオ名",
+            "folder" : "Folder",
+            "note" : "メモ",
+            "explanatory_material" : "説明資料",
+            "add_explanatory_material" : "説明資料を追加",
+            "tips" : "ヒント",
+            "control_number" : "管理番号"
+        },
+        "please_enter_hint" : "ヒントを入力してください",
+        "persona" : "ペルソナ",
+        "trainee" : "研修者",
+        "letter" : "手紙",
+        "feed" : "送り",
+        "keyword" : "キーワード",
+        "please_enter_message" : "メッセージを入力してください",
+        "add_message" : "メッセージを追加",
+        "start_of_new_role_playing" : "新規ロープレの開始",
+        "recruiter_selection" : "募集人の選択",
+        "section_selection" : "セクションの選択",
+        "return" : "戻る",
+        "edit" : "編集",
+        "auto_answer" : "自動回答",
+        "reflect" : "反映",
+        "role_play_started" : "ロールプレイ開始",
+        "progress" : "進捗",
+        "appointment_acquisition_call": "アポイント取得コール",
+        "number_of_implementations": "プレイ回数",
+        "times" : "回",
+        "maximum_achievement_rate": "自己ベスト",
+        "play_time": "プレイ時間",
+        "p_70_text" : "今日もがんばろう！",
+        "p_over_70_text" : "あともう少し頑張って”！"
+    },
+    "rateOfRisk" : {
+        "header_1" : "介護リスク率発生",
+        "header_2" : "本セクションの目的",
+        "s_header_1" : "プロセス",
+        "s_header_2" : "ポイント",
+        "s_header_3" : "パンフレット・フリップ",
+        "frequency_of_long_term_care" : "介護の発生頻度",
+        "lifespan_and_healthy_lifespan" : "寿命と健康的な寿命",
+        "causes_of_long_term_care" : "介護の原因",
+        "long_term_care_period" : "介護期間",
+        "proceed_to_the_next" : "ロープレ実施画面へ",
+        "time": "月 .日",
+        "correct_answer_rate" : "正答率",
+        "accepting" : "受け入れ中",
+        "wednesday" : "金"
+    },
+    "freeRateOfRisk" : {
+        "header_1" : "本セクションの目的",
+        "header_2" : "募集資材・スクリプト"
+    },
+    "setting" : {
+        "synonym" : "同義語",
+        "search_keywords_synonym" : "キーワードや同義語を探す",
+        "add_keyword" : "キーワードを追加",
+        "export" : "エクスポート",
+        "keyword" : "キーワード",
+        "add_synonym" : "同義語を追加"
+    },
+    "recruiter" :
+    {
+        "recruiter_slection" : "ユーザー名",
+        "curriculum" : "カリキュラム",
+        "long_term_insurance_practice" : "【AIロープレ】しっかり頼れる介護保険",
+        "course" : "コース",
+        "role_playing_training" : "ロープレ_トレーニング",
+        "role_playing_test" : "ロールプレイングテスト",
+        "progress_rate" : "進捗率",
+        "decision" : "決定",
+        "view_details" : "詳細の表示"
+    },
+    "aiscore" : {
+        "ai_scoring_result" : "AI採点結果",
+        "cicle_percentage" : {
+            "header_1": "正答率",
+            "header_2": "自己ベスト"
+        },
+        "chartbar" : {
+            "header" : "実施履歴",
+            "line_header" : "合格基準"
+        },
+        "score_by_process" : "採点詳細（プロセス別)",
+        "process" : "プロセス",
+        "evaluation" : "評価",
+        "point" : "ポイント",
+        "card_title" : {
+            "long_term_care_frequency" : "介護の発生頻度",
+            "lifespan_and_healthy_lifespan" : "寿命と健康的な寿命",
+            "long_term_care_causes" : "介護の原因",
+            "long_term_care_period" : "介護期間"
+        },
+        "disease_called_cancer" : "がんという病気",
+        "two_in_one" : "2人に1人",
+        "cancer_incidence" : "がんの発生率",
+        "higher_with_age" : "年齢とともに高く",
+        "average_no_of_days_hospital" : "平均在院日数",
+        "elderly" : "高齢",
+        "utterance" : "会話履歴",
+        "chat_history" : "チャット履歴"
+    },
+    "videochat" : {
+        "role_play_implmenting" : "ロープレ実施中",
+        "ongoing_section" : "実施中のセクション",
+        "current_long_term_care_insurance" : "介護保険の現状",
+        "process" : "プロセス",
+        "frequency_long_term_care" : "介護の発生頻度",
+        "lifespan_and_helthy_lifespan" : "寿命と健康的な寿命",
+        "causes_long_term_care" : "介護の原因",
+        "period_long_term_care" : "介護期間",
+        "sale_tools" : "セールスツール",
+        "break" : "中断する",
+        "resume" : "やり直す",
+        "score" : "採点する",
+        "reply" : "応答",
+        "let_get_started" : "お客様役 : それでは始めましょう。",
+        "to_score_confirmation": "採点を実施しますか？",
+        "start_button": "ロープレ開始"
+    },
+    "historycheck" : {
+        "history_confirmation" : "履歴確認",
+        "output" : "アウトプット編」",
+        "role_play_test" : "ロープレテスト編",
+        "section_name" : "セクション名",
+        "progress" : "進捗(正答率)",
+        "status" : "ステータス",
+        "attendance" : "受講中(16セクション/24セクション)",
+        "manager_screen": "管理者画面",
+        "agency_code": "代理店コード(7桁)",
+        "please_enter_agency_code": "代理店コードを入力",
+        "check_on": "出先コード単位で確認したい場合",       
+        "recruiter_code": "出先コード(3桁)",
+        "please_enter_destination_code":"出先単位で確認したい場合は出先コードを入力してください",
+        "please_enter_destination_code_short":"出先単位で確認したい場合は入力してください",
+        "please_enter_recruiter_code": "出先コードを入力",
+        "search": "検索",
+        "recruiter_list": "ユーザー一覧",
+        "recruiter_name": "ユーザー名 "
+    },
+    "registerSynonyms": {
+        "register_synonyms": "類義語を登録する",
+        "register_synonyms_search_keywords": "キーワードや類義語を探す",
+        "register_synonyms_add_keywords": "+新しい類義語登録",
+        "register_synonyms_export": "エクスポート",
+        "register_synonyms_keywords_label": "キーワード",
+        "register_synonyms_label": "類義語",
+        "register_synonyms_add_synonyms": "+類義語を追加",
+        "register_synonyms_save": "保存",
+        "register_synonyms_cancel": "キャンセル"
+    },
+    "role_play_creation" : {
+        "message": "メッセージ",
+        "process" : {
+            "process_name" : "プロセス名",
+            "process": "プロセス",
+            "point" : "ポイント",
+            "material_tool" : "セールスツール",
+            "add_process" : "プロセスを追加"
+        },
+        "script" : {
+            "recruiter" : "募集人",
+            "keyword" : "キーワード",
+            "persona" : "ペルソナ",
+            "add_message" : "メッセージを追加",
+            "add_to" : "追加",
+            "personas_return_questions": "自動回答"
+        },
+        "delete" : "削除",
+        "add_file" : "ファイルを追加",
+        "confirm_dia" : {
+            "header" : "変更を保存しますか？"
+        },
+        "upload_dia" : {
+            "header" : "ファイルをアップロードする",
+            "title" : "アップロードするにはここをクリックしてください",
+            "cancel" : "キャンセル",
+            "upload" : "アップロード"
+        },
+        "yes" : "はい",
+        "no" : "いいえ"
+    },
+    "evaluation" : { 
+        "role_playing_creation" : "ロープレ作成"
+    },
+    "departments" : {
+        "departments_registration" : "組織登録"
+    }
+
+}

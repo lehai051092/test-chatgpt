@@ -1,0 +1,74 @@
+.select_form{
+    width: 40%;
+}
+.select_form legend{
+    display: none;
+}
+.select_form fieldset{
+    top: 0px !important;
+}
+.flex_row{
+    display: grid;
+    grid-template-columns: 110px 2% 40% 5%;
+    align-items: center;
+    margin: 10px 0 21px 0;
+}
+
+.align_unset{
+    align-items: unset !important;
+}
+
+.custom_select_box{
+    display: inline-block;
+    width: 95%;
+    height: 41px;
+    border: 0.678715px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: url('../../../../property/icons/down_arrow.svg') no-repeat 97%;
+    background-color: #FAFAFA;
+	-moz-appearance: none; 
+	-webkit-appearance: none; 
+	appearance: none;
+    padding : 4px 20px;
+    background-size: 2% 26%;
+}
+.custom_select_box_1{
+    display: inline-block;
+    width: 95%;
+    height: 41px;
+    background: #FAFAFA;
+    border: 0.678715px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: url('../../../../property/icons/up_arrow.svg') no-repeat 97%;
+	-moz-appearance: none; 
+	-webkit-appearance: none; 
+	appearance: none;
+    padding : 4px 20px;
+    background-size: 2% 26%;
+}
+
+.dis_font_color{
+    color: #D1D1D1;
+}
+.option1Deful{
+    color: #979797;
+    transform: 'rotate(180deg)';
+}
+.selectedColor{
+    font-weight: 700!important;
+}
+
+.update_once_name{
+    width: 48px !important;
+    height: 30px;
+    display: block;
+    width: auto;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}

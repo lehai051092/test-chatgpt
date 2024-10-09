@@ -1,0 +1,192 @@
+
+
+.video_chat_checkbox_row > div {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.video_chat_checkbox_row > div:last-child {
+    margin-top: 10px;
+}
+
+.video_chat_checkbox_row > label{
+    cursor: initial !important;
+}
+
+.mark-on-title, .mark-on-title-check {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: #D6D8D9;
+    top: -1px;
+    left: -1px;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+.mark-on-title-check {
+    background: url('../../../../../property/images/keyword_check.svg') no-repeat #00A5D9 3px 4px !important;
+}
+
+.video-chat-process-content > label:first-child {
+    margin-right: 8px !important;
+    width: calc(100% - 32px);
+}
+
+.video_chat_process_text {
+    color: #333333;
+    font-size: 16px !important;
+    line-height: 26px;
+    /* font-weight: 700; */
+
+}
+
+.video_chat_toggle_icon {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.video_chat_keyword_expand {
+    background: url('../../../../../property/images/close_keyword_list.png') no-repeat center center;
+    background-size: 30px 30px;
+}
+
+.video_chat_keyword_fold {
+    background: url('../../../../../property/images/open_keyword_list.png') no-repeat center center;
+    background-size: 30px 30px;
+}
+
+/* @media (max-width: 1200px) { */
+    /* .video_chat_keyword_expand {
+        background-size: 25px 25px;
+    }
+    
+    .video_chat_keyword_fold {
+        background-size: 25px 25px;
+    }  */
+/* } */
+.badge_keyword_items_sp {
+    /* font-family: 'Yu Gothic'; */
+    font-size: 12px;
+    line-height: 19px;
+    padding: 5px;
+    margin-right: 5px;
+    background-color: #D6D8D9;
+    color: #333;
+    font-weight: 500 !important;
+    border-radius: 0 !important;
+    margin-bottom: 5px;
+}
+
+.selected_badge_keyword_items_sp {
+    /* font-family: 'Yu Gothic'; */
+    font-size: 12px;
+    line-height: 19px;
+    padding: 5px;
+    margin-right: 5px;
+    background-color: #00A5D9;
+    font-weight: 500 !important;
+    border-radius: 0 !important;
+    margin-bottom: 5px;
+}
+
+.video-chat-process-name{
+    font-weight: 700;
+}
+
+@media (max-width: 767px) and (min-width: 375px) {
+    .keywords_list_content_sp{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        margin: 13px 10px 17px 10px;
+    }
+
+    .keywords_list_content_box_sp {
+        padding: 3px 6px;
+        width: 100%;
+    }
+
+    .video_chat_checkbox_row{
+        width: 100%;
+        padding: 13px 14px 13px 22px;
+        margin: 0px;
+        border: 1px solid #ededed;
+        box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.8);
+        position: relative;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .keywords_list_button_r_sp{
+        border-left: 3px solid #00A5D9;
+        border-top: 3px solid #00A5D9;
+        width: 15px;
+        height: 15px;
+        transform: rotate(135deg);
+        flex-shrink: 0;
+    }
+
+    .keywords_list_button_l_sp{
+        border-left: 3px solid #00A5D9;
+        border-top: 3px solid #00A5D9;
+        width: 15px;
+        height: 15px;
+        transform: rotate(-45deg);
+        flex-shrink: 0;
+    }
+
+    .keywords_list_button_gray{
+        border-color: #D6D8D9;
+    }
+
+}
+
+    .keywords_list_content_sp{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        margin: 13px 10px 17px 10px;
+    }
+
+    .keywords_list_content_box_sp {
+        padding: 3px 6px;
+        width: 100%;
+    }
+
+    .video_chat_checkbox_row{
+        width: 100%;
+        padding: 13px 14px 13px 22px;
+        margin: 0px;
+        border: 1px solid #ededed;
+        box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.8);
+        position: relative;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .keywords_list_button_r_sp{
+        border-left: 3px solid #00A5D9;
+        border-top: 3px solid #00A5D9;
+        width: 15px;
+        height: 15px;
+        transform: rotate(135deg);
+        flex-shrink: 0;
+    }
+
+    .keywords_list_button_l_sp{
+        border-left: 3px solid #00A5D9;
+        border-top: 3px solid #00A5D9;
+        width: 15px;
+        height: 15px;
+        transform: rotate(-45deg);
+        flex-shrink: 0;
+    }
+
+    .keywords_list_button_gray{
+        border-color: #D6D8D9;
+    }
+

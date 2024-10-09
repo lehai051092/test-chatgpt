@@ -1,0 +1,10 @@
+.bg_green {    
+    /* background: #C1EEE6; */
+    background: #99DBF0;
+    padding: 12px 4px;
+    color: #000;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2px !important;
+}

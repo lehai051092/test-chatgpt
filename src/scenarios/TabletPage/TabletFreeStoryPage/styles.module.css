@@ -1,0 +1,829 @@
+.video_chat_name_context {
+    display: flex;
+    justify-content: center;
+}
+
+.video_chat_name_context>div {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #333333;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+    /* margin-left: 20px; */
+}
+
+.video_chat_name_context>div>label>span:nth-child(1) {
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+
+.video_chat_name_context>div>label>span:nth-child(2) {
+    font-size: 18px;
+    margin-right: 1rem;
+}
+
+.role_play_main_area {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px rgba(128, 128, 128, 0.25);
+    height: 100%;
+}
+
+.role_play_main_area > div:first-child {
+    display: flex;
+}
+
+
+.chat_avatar_area {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.chat_img_container {
+    position: relative;
+    width: 100%;
+}
+
+.video_chat_list_title {
+    display: flex;
+}
+
+.video-chat-top-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px !important;
+}
+
+.video_chat_btn_tips {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 34px;
+    /* identical to box height */
+    margin-top: 13px;
+    color: #333333;
+    margin-bottom: 12px;
+}
+
+.video_chat_list_first_title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 19px;
+    margin-left: 12px;
+    margin-right: 9px;
+    color: #333333;
+}
+
+.flex_mobile_column_reverse {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse !important;
+    padding: 0 13px;
+}
+
+.flex_webcam{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 10px;   
+}
+
+.flex_webcam_camera{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-top: 10px;   
+    padding-bottom: 20px;   
+}
+
+.flex_right{
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content:right;
+    margin-top: 10px;
+}
+
+.control_button{
+    margin-left: 1px;
+}
+
+/* --------------- landscape -------------- */
+
+
+.role_play_main_area_landscape {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px rgba(128, 128, 128, 0.25);
+    padding:9px;
+}
+
+.subtitle_name{
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+    margin-left: 3%;
+}
+
+.subtitle_name_context{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 34px;
+    /* identical to box height */
+    color: #333333;
+    margin-left: 3%;
+    margin-bottom: 15px;
+}
+
+.control_button_landscape{
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
+}
+
+.pdf_landscape{
+    width: 55%;
+    position: relative;
+}
+
+/** -------------------------------------------------------------------------*/
+.free_story_page {
+    position: relative;
+    left: 1%;
+}
+
+.free_story_page_container {
+    position: relative;
+    margin-right: 3%;
+    height: 87vh;
+    min-height:410px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+}
+
+.free_story_page_right {
+    position: absolute;
+    right: 50px;
+    top: 17px;
+}
+
+.free_story_page_right_interactive_camera {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+}
+
+.free_story_page_right_interactive_camera_landscape {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    left: 1px;
+    bottom: 5px;
+}
+
+.free_story_page_right_interactive_textarea {
+    display: inline-block;
+    height: 86px;
+    width: 488px;
+    margin-left: 12.5px;
+    margin-right: 12.5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-top: 13px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+    background: #FFFFFF;
+}
+
+.free_story_page_right_interactive_response {
+    display: inline-block;
+    width: 86px;
+    height: 86px;
+    background: #B4B4B4;
+}
+
+.free_story_page_right_submit {
+    display: inline-block;
+    margin-top: 13px;
+    width: 187.92px;
+    height: 56.5px;
+    background: linear-gradient(165.85deg, #7AFF2C -31.2%, #4CF13C 16.87%, #23E54B 67.38%, #09DD54 107.33%, #00DB58 131.2%);
+}
+
+.task_list {
+    position: relative;
+    left: -7%;
+    height: 50vh;
+    width: 22vw;
+    overflow-y: auto;
+    /* box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.8); */
+}
+
+.task_list_card {
+    position: relative;
+    display: block;
+    /* background: url(../../../property/images/free_story/task_card_background.png) 18px 18px no-repeat; */
+    box-shadow: 0px 0px 7px rgba(128, 128, 128, 0.8);
+    margin-top: 5px;
+    padding-top: 15px;
+    /* width: 94%; */
+    width: 86%;
+    background: #FFFFFF;
+    z-index: 999;
+    overflow: hidden;
+    transition: all 1s;
+    padding-top: 0.5rem;
+    min-height: 55px;
+}
+
+.task_list_card_selection {
+    position: absolute;
+    padding-left: 5px;
+    top: 0;
+    left: 0;
+    height: 32px;
+    width: 32px;
+    background-color: #00A5D9;
+    clip-path: polygon(0  0, 100% 0, 0 100%);
+}
+
+/* .task_list_card_selection {
+    width: 16px;
+    display: inline-block;
+    position: absolute;
+    background-color: #00A5D9;
+    height: 100%;
+    top: 0
+} */
+
+.task_list_card_unselection {
+    position: absolute;
+    padding-left: 5px;
+    top: 0;
+    left: 0;
+    height: 32px;
+    width: 32px;
+    background-color: #B4B4B4;
+    clip-path: polygon(0  0, 100% 0, 0 100%);
+}
+
+.task_list_card_context {
+    padding: 0px 15px 6px 21px;
+}
+
+.task_list_card_context_flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tag_wrapper {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag_list_flg{
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+
+.tag_wrapper_tag {
+    font-size: 12px;
+    line-height: 19px;
+    padding: 6px;
+    margin-right: 5px;
+    background-color: #D6D8D9;
+    color: #333;
+    margin: 3px;
+    font-weight: 500 !important;
+    border-radius: 0 !important;
+}
+
+.tag_wrapper_tag_selected {
+    font-size: 14px;
+    line-height: 19px;
+    padding: 6px;
+    margin-right: 5px;
+    color: white;
+    margin: 3px;
+    background-color: #00A5D9;
+    font-weight: 700 !important;
+    border-radius: 0 !important;
+}
+
+.tag_wrapper_tag_image {
+    padding-right: 13px;
+}
+
+.tag_wrapper_tag_unselected {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 18px;
+    margin: 3px;
+    font-size: 13px;
+    color: #707070;
+    border: 1px solid #707070;
+    box-sizing: border-box;
+}
+
+.card_title_unselect {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 8px;
+    line-height: 38px;
+    color: #333;
+}
+
+.card_title_select {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    margin-left: 8px;
+    line-height: 38px;
+    color: #333;
+}
+
+.card_title_unselected {
+    font-style: normal;
+    font-size: 16px;
+    margin-left: 8px;
+    line-height: 26px;
+    color: #4D4D4D;
+}
+
+
+.task_card_shrink {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: #FFFFFF;
+    border: 1px solid #66B4DC;
+    cursor: pointer;
+}
+
+.task_list_title_div {
+    position: relative;
+    height: 90%;
+    width: 100%;
+    margin: 0 0 21px 21px;
+}
+
+.task_list_title_sub {
+    display: block;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.task_list_title {
+    display: block;
+    width: 70%;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 34px;
+    color: #333333;
+}
+
+
+.free_storyright_bottom_item{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.free_storyright_bottom_item_start{
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.free_storyright_bottom_item_end{
+    position: relative;
+    display: inline-block;
+}
+
+.free_storyright_bottom_clock{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #808080;
+}
+
+
+
+.element_to_record_mask {
+    position: absolute;
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    inset: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.free_storyright_bottom{
+    margin-top: 10px;
+    float: right;
+}
+
+.free_story_return{
+    width: 94px;
+    height: 47px;
+    min-height: 47px;
+    background: #FFFFFF;
+    padding: 8px 16px;
+    color: #333333;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 16%);
+    font-family: Hiragino Sans;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 22px;
+}
+
+.free_story_header{
+    position: absolute;
+    display: inline-block;
+}
+
+.animation {
+    animation-name: button_blink;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes button_blink {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.video_chat_terminate_btn {
+    background: url('../../../property/images/terminate-role-play.svg') #fff no-repeat;
+    background-position: 70px center;
+    height: 36px;
+    line-height: 36px;
+    width: 100px;
+    box-shadow: 2px 2px 7px #808080;
+    border-radius: 5px;
+    color: #333;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+.video_chat_interrupt_btn {
+    background: url('../../../property/images/interrupt-role-play.svg') #fff no-repeat;
+    background-position: 70px center;
+    height: 36px;
+    line-height: 36px;
+    width: 100px;
+    box-shadow: 2px 2px 7px #808080;
+    border-radius: 5px;
+    color: #333;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+.video_chat_name_context{
+    margin-left: 10px;
+    display: flex;
+}
+
+@media (max-width: 1300px){
+    .video_chat_name_context {
+        flex-direction: column !important;
+    }
+    .persona_font{
+        padding-left: 0px !important;
+    }    
+}
+@media (max-width: 2000px){
+    .video_chat_name_context {
+        flex-direction: row;
+    }
+    .persona_font{
+        padding-left: 10px;
+    }    
+}
+
+.persona_font{
+    margin-top: 15px;
+    margin-right: 20px !important;
+    width: 19vw;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px;
+    /* or 187% */
+    color: #333333;
+}
+
+.free_story_key_display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:3%;
+    margin-right:3%;
+}
+
+.mobile_previous{
+    margin-right: 17px;
+    height: 1.5rem;
+}
+
+.mobile_next{
+    margin-left: 17px;
+    height: 1.5rem;
+}
+
+.free_story_start_btn{
+    width: 190px;
+    height: 47px;
+    background: #00A5D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    line-height: 47px;
+    margin: 8px auto 19px;
+}
+
+.free_story_start_btn img{
+    margin-right: 13px;
+    margin-top: -5px;
+}
+
+.free_story_webcam_input_wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 24px 21px; 
+}
+
+.free_story_webcam_box{
+    width: 92px;
+    height: 86px;
+    /* background: var(--disable-low); */
+    background-image: url('../../../property/images/free_story/free_story_defalut_avatar.png');
+    background-size: 92px 86px;
+}
+
+.free_story_webcam_box_blank{
+    width: 92px;
+    height: 86px;
+}
+
+.free_story_textarea{
+    width: 479px;
+    height: 86px;
+    border: none;
+    border-radius: 10px;
+    background: #FFFFFF;
+    -webkit-appearance: none; 
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.8);
+    -webkit-box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.8);
+    resize: none;
+    padding: 14px 19px;
+    font-size: 16px;
+    color: #000000;
+    opacity: 1 !important;
+}
+
+.free_story_bottom_btns{
+    width: 100vw;
+    padding: 16px 18px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 10px 10px 20px #888888;
+}
+
+.free_story_bottom_btns_started{
+    margin-top: 88px;
+}
+
+.free_story_bottom_btns_left{
+    display: flex;
+}
+
+.free_story_terminate_btn{
+    width: 96px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-right: 12px;
+    text-align: center;
+}
+
+.free_story_terminate_btn_started{
+    color: #333;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.free_story_terminate_btn_not_start{
+    font-weight: 700;
+    color: #9F9F9F;
+    background: #D9D9D9;
+    border: 1px solid #C5C5C5;
+}
+
+.free_story_interrupt_btn{
+    padding: 19px 15px;
+    line-height: 32px;
+}
+
+.free_story_resume_btn{
+    padding: 14px 15px 0px 15px;
+}
+
+.free_story_chat_end_btn{
+    width: 174px;
+    height: 64px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    line-height: 64px;
+}
+
+.free_story_chat_end_btn_not_start{
+    background: #D9D9D9;
+    border: 1px solid #C5C5C5;
+}
+
+.free_story_chat_end_btn_started{
+    background: #DC8827;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tablet_free_story_clock{
+    height: 24px;
+    margin-top: 6px;
+    color: #808080;
+    font-size: 14px;
+}
+
+.tablet_free_story_clock img{
+    margin-top: -8px;
+    margin-right: 8px;
+}
+
+.role_play_main_area_top_landscape{
+    display: flex;
+}
+
+.role_play_main_area_top_landscape > div:first-child {
+    position: relative;
+    width: 45%;
+}
+
+.role_play_main_area_top_left_landscape{
+    position: relative;
+}
+
+.free_story_start_btn_landscape{
+    width: 190px;
+    height: 47px;
+    background: #00A5D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    line-height: 47px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -95px;
+}
+
+.free_story_start_btn_landscape img{
+    margin-right: 13px;
+}
+
+.role_play_main_area_bottom_landscape{
+    padding: 15px 15px 4px;
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.free_story_textarea_landscape{
+    width: 710px;
+    height: 86px;
+    border: none;
+    border-radius: 10px;
+    background: #FFFFFF;
+    -webkit-appearance: none; 
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.8);
+    -webkit-box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.8);
+    resize: none;
+    padding: 15px 23px;
+    font-size: 16px;
+    color: #000000;
+    opacity: 1 !important;
+}
+
+.free_story_bottom_btns_landscape{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 24px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    z-index: 1001;
+    box-shadow: 10px 10px 20px #888888;
+}
+
+.free_story_terminate_btn_landscape{
+    min-width: 136px;
+    height: 54px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 54px;
+    margin-right: 12px;
+    padding: 0px 16px;
+    font-size: 16px;
+}
+
+.free_story_terminate_btn_landscape_started{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    color: #333333;
+}
+
+.free_story_terminate_btn_landscape_not_start{
+    font-weight: 700;
+    color: #9F9F9F;
+    background: #D9D9D9;
+    border: 1px solid #C5C5C5;
+}
+
+.free_story_chat_end_btn_landscape{
+    width: 174px;
+    height: 46px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    line-height: 46px;
+    margin-top: 6px;
+}

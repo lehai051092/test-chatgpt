@@ -1,0 +1,33 @@
+.mouth_habit{
+    padding: 3px 0px;
+    border-radius: 3px;
+    margin-right: 3px;
+    border: 0.5px solid #00A5D9;
+    display: inline-block;
+}
+.mouth_habit_free_story{
+    padding: 3px 0px;
+    margin-right: 3px;
+    border: 0.5px solid #CAD8DF;
+    display: inline-block;
+}
+.is_custom_bg{
+    background: #00A5D9 !important;
+}
+.mouth_habit_name{
+    background-color: #E9FAFF;
+    padding: 3px 0px;
+    border-right: 0.5px solid #00A5D9;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.mouth_habit_name_free_story{
+    background-color: #CAD8DF;
+    padding: 3px 0px;
+    border-right: 0.5px solid #CAD8DF;
+    width: 70% !important;
+}
+.mount_habit_count{
+    padding: 3px 0px;
+    width: 30% !important;
+}

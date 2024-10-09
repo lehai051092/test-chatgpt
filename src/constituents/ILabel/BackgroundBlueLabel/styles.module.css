@@ -1,0 +1,9 @@
+
+.bg_blue {    
+    background: var(--cerulean);
+    padding: 12px 4px;
+    color: var(--white);
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}

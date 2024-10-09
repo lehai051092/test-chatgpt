@@ -1,0 +1,194 @@
+.outer_container_box {
+    /* background-color: #FAFAFA; */
+    /* background-color: cadetblue; */
+    /* padding: 10px 50px;
+    padding-top: 32px;
+    margin-top: 32px;
+  
+    background: #fafafa;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    border-radius: 8px; */
+  }
+  
+  .inner_container_box {
+    /* background-color: white;
+    padding: 32px 45px;
+    border-radius: 8px; */
+  }
+/*   
+  .return_button {
+    background-color: #e9faff;
+    border-radius: 4px;
+    width: 90px;
+    height: 36px;
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100%;
+    color: #00a5d9;
+    text-align: center;
+    border: 0;
+  }
+  
+  .next_button {
+    background-color: #00a5d9;
+    border-radius: 4px;
+    width: 90px;
+    height: 36px;
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 20px;
+    border: 0;
+  }
+  
+  .select_box {
+    width: 426px;
+    background-color: #fbfbfb;
+    border: 0.678715px solid #d6e4ec;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .wapper {
+    margin-top: 2rem;
+  }
+  .recruiter_select {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+  }
+  .learning_theme {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #333333;
+  } */
+  .card_wrapper{
+    /* margin-left: 0px; */
+  }
+  /* .radio_font {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    color: #333333;
+  }
+  .radio_container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .radio_container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 50%;
+  }
+  .radio_container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  .radio_container input:checked ~ .checkmark {
+    background-color: white;
+    border: 1px solid #2196f3;
+  }
+  .radio_container input:checked ~ .checkmark.disable {
+    background-color: white;
+    border: 1px solid #818181;
+  }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .radio_container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .radio_container .checkmark:after {
+    top: 8px;
+    left: 8px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #2196f3;
+  }
+  .radio_container .checkmark.disable:after {
+    background: #928585;
+  }
+   */
+.card_box_min_height{
+  min-height: 208px;
+}
+
+.lable_recuriter_name{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000000;
+}
+
+@media (max-width: 767px) and (min-width: 375px) {
+  .recruiter_selection_sp {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 1px !important;
+  }
+  .lable_recuriter_style_sp{
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 3px;
+  }
+  .persona_selection_cmn_bg_box_sp {
+    padding: 0 9px;
+  }
+  .persona_selection_cmn_bg_box_inr_sp {
+    padding: 14px 16px;
+  }
+  /* .persona_selection_margin_bottom_sp {
+    margin-bottom: 1rem;
+  } */
+  .border_bottom_sp {
+    border-bottom: 2px solid #D3D3D3 !important;
+    margin-bottom: 9px !important;
+  }
+}

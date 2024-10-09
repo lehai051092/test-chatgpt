@@ -1,0 +1,136 @@
+.card_box {
+  background: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 10px rgb(0 0 0 / 15%);
+  border-radius: 6px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.choose_persona {
+  border: 3px solid #00a5d9;
+  border-radius: 9px;
+}
+
+.story_name {
+  /* background: var(--blue-card); */
+  background: #99DBF0;
+  padding: 8px;
+  border-radius: 6px 6px 0px 0px;
+  color: #333333;
+  /* border: 1px solid var(--blue-card); */
+  text-align: center;
+  font-weight: bold;
+}
+.card_box_content {
+  padding: 16px 32px;
+  /* border: 1px solid #fff; */
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.card_box_content.active {
+  border-color: #00a5d9;
+}
+.person{
+  width: 110px;
+  height: 110px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  max-width: 160px;
+  object-fit: cover;
+}
+.indicate{
+  color: var(--blue-card);
+}
+.decision_button{  
+  text-align: center;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) and (max-width: 1399.98px) {
+  /* .image_box>div {
+    display: block !important;
+  } */
+}
+.parason_pf_btn{
+  color: #00A5D9;
+  cursor: pointer;
+}
+.grey_text {
+  color: #b2b2b2;
+}
+
+.details {
+  color: var(--white) !important;
+  font-size: 16px;
+  margin-bottom: 3px;
+  background: #1C3664;
+  border-radius: 6px;
+  display: flex;
+  min-height: 36px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  cursor: pointer;
+}
+.con_height_custom{
+  height: 19px;
+}
+.image_box{
+  padding: 0;
+  text-align: center;
+}
+.div_flex{
+  display: flex;
+  justify-content: center;
+}
+.imformation_pad_left{
+  padding-left: 35px;
+}
+
+@media (max-width: 767px) and (min-width: 375px) {
+  .details {
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 12px !important;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 700;
+    height: 40px;
+  }
+  .story_name {
+    padding-top: 5px;
+    padding-bottom: 1px;
+    line-height: 26px;
+    font-weight: 700;
+  }
+  .card_box_content {
+    padding: 8px 24px 15px 24px;
+  }
+  .decision_button {
+    height: 19px;
+  }
+  .decision_button > a{
+    font-size: 12px;
+    line-height: 19px;
+  }
+  .image_box {
+    align-items: center;
+  }
+  .image_box p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0 !important;
+  }
+  .image_box p:first-child {
+    font-size: 16px;
+    line-height: 26px;
+    /* margin-bottom: 8px !important; */
+  }
+
+}

@@ -1,0 +1,852 @@
+.chat_img_sec {
+    height: 100%;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    padding-left: 20px;
+    /* overflow: hidden; */
+}
+
+.vitual_chat_avatar {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: -15px;
+}
+
+.main_chat_people {
+    width: auto;
+    height: 100%;
+    position: relative;
+    background: var(--blue-light);
+    max-width: inherit !important;
+    /* top: -10px; */
+}
+
+.chat_people_box_blank {
+    width: 92px;
+    height: 86px;
+}
+
+.chat_people_box_blank img{
+    width: 90px;
+    height: 86px;
+    max-width: 90px;
+}
+
+
+.main_chat_play_button {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.main_chat_start_button {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.inline_header {
+    display: inline-block;
+}
+
+.video-chat-section-name {
+    white-space: pre-wrap;
+    cursor: default;
+}
+
+.time_text_box {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 22px;
+    text-align: center;
+    background: url('../../../property/images/role-play-timer.svg') no-repeat left center;
+    color: #808080;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.video_chat_input_area {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 92px;
+    padding: 13px 0px 0px;
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .video_chat_input_area {
+        padding: 5px 20px 5px 0;
+    }
+}
+
+.video_chat_input_button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: calc(100% - 100px);
+    height: 100%;
+    position: relative;
+}
+
+.video_chat_input_button>span {
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    height: 86px;
+    width: 86px;
+}
+
+.video-chat-terminate-btn,
+.video-chat-restart-btn {
+    height: 36px;
+    line-height: 36px;
+    width: 100px;
+    box-shadow: 2px 2px 7px #808080;
+    border-radius: 5px;
+    color: #333;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 500;
+    margin-left: 20px;
+    padding: 0 10px;
+}
+
+.video-chat-terminate-btn {
+    background: url('../../../property/images/terminate-role-play.svg') #fff no-repeat;
+    background-position: 70px center;
+}
+
+.video-chat-restart-btn {
+    background: url('../../../property/images/restart-role-play.svg') #fff no-repeat;
+    background-position: 70px center;
+}
+
+.role-play-mic,
+.role-play-mic-active {
+    background: url('../../../property/icons/role-play-micphone-icon.png') no-repeat;
+    background-position: center center;
+    background-size: 75px 75px;
+}
+
+.role-play-mic-active {
+    cursor: pointer;
+    animation-name: mic_blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.video-chat-input {
+    width: 100%;
+    height: 100%;
+    background: var(--white);
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.8);
+    border-radius: 10px;
+    display: block;
+    padding: 10px 30px 10px 20px;
+    resize: none;
+    font-size: 14px;
+    position: relative;
+    color: #6D6D6D;
+    border:unset;
+}
+
+.video-chat-input:focus{
+    border: 1px solid #00A5D9;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.8);
+}
+
+.video-chat-input-blur{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.video-chat-input-pencil{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.start_text {
+    background: var(--blue-card);
+    padding: 8px 32px;
+    color: var(--white);
+    text-align: left;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    margin: 0;
+    font-weight: bold;
+    z-index: 99;
+}
+
+.video_chat_input_area_recording {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video_chat_input_area_recording>img {
+    cursor: pointer;
+}
+
+.pointer_cursor {
+    cursor: pointer;
+}
+
+.video-chat-btn-tips {
+    width: 100%;
+    white-space: nowrap;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 36px;
+    line-height: 24px;
+    padding: 5px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: left;
+}
+
+.video-chat-btn-tips>div>p {
+    margin-bottom: 0px !important;
+}
+
+@media (max-width: 1200px) {
+    .video-chat-btn-tips>div>p {
+        font-size: 16px !important;
+    }
+
+    .video-chat-list-first-titile {
+        font-size: 12px;
+        margin-bottom: 0 !important;
+    }
+}
+
+@media (max-width: 2000px) {
+    .video-chat-btn-tips>div>p {
+        font-size: 21px;
+    }
+
+    .video-chat-list-first-titile {
+        font-size: 14px;
+    }
+}
+
+.video-chat-btn-click-back {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    height: 50px;
+    width: 100px;
+    border-radius: 8px;
+    margin: 0 15px 27px 0 !important;
+}
+
+.video-chat-list-first-titile {
+    font-weight: 500;
+    text-align: left;
+}
+
+.video-chat-name-context {
+    display: flex;
+    flex-direction: row;
+}
+
+.video-chat-name-context>div {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 2000px) {
+    .video-chat-name-context>div>label:first-child {
+        /* margin-top: 15px; */
+        font-size: 18px;
+        font-weight: 700;
+        color: #333;
+    }
+
+    .video-chat-name-context>div>label:last-child {
+        font-size: 20px;
+        font-weight: 700;
+        color: #333;
+    }
+}
+
+@media (max-width: 1200px) {
+    .video-chat-name-context>div>label:first-child {
+        /* margin-top: 15px; */
+        font-size: 12px;
+        font-weight: 700;
+        color: #333;
+    }
+
+    .video-chat-name-context>div>label:last-child {
+        font-size: 14px;
+        font-weight: 700;
+        color: #333;
+    }
+}
+
+.video-chat-keyword-list-main {
+    padding-left: 20px;
+}
+
+.video-chat-keyword-list {
+    position: relative;
+    width: calc(100% + 20px);
+    left: -36px;
+}
+
+.video-chat-top-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px !important;
+}
+
+.video-chat-footer-buttons {
+    width: 150%;
+    position: absolute;
+    right: 8px;
+    margin: 51px 0 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+
+.video-chat-bottom-left-btn{
+    width: 32%;
+    margin-left: 8px;
+}
+
+.video-chat-bottom-middle-btn{
+    flex-grow: 1;
+}
+
+.start-role-play-btn {
+    background-color: #00A5D9;
+    width: 180px;
+    height: 47px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.start-role-play-btn img{
+    width: 14px;
+    height: 23px;
+    margin-bottom: 10px;
+}
+
+.start-role-play-btn span{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-left: 13px;
+}
+
+
+.start-role-play-btn-active {
+    animation-name: mic_blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    background-color: #C3E5F8;
+}
+
+.start-role-play-btn:hover {
+    opacity: 0.8;
+}
+
+.close-role-play-btn{
+    width: 150px;
+    height: 47px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 22px;
+    margin-right: 5px;
+    line-height: 47px;
+}
+.close-role-play-btn-gray {
+    border: 1px solid #C5C5C5;
+    cursor: not-allowed;
+    background: #D9D9D9;
+    
+}
+
+.close-role-play-btn-orange {
+    cursor: pointer;
+    background: #E78321;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+}
+
+.close-role-play-btn img{
+    width: 30px;
+    height: 30px;
+    margin-left: 9px;
+    margin-bottom: 7px;
+}
+
+.close-role-play-btn:hover {
+    opacity: 0.8;
+}
+.video-chat-next-section-btn-gray {
+    width: 154px;
+    height: 47px;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    cursor: not-allowed;
+}
+
+.video-chat-next-section-btn {
+    width: 154px;
+    height: 47px;
+    background-color: #00A5D9;
+    border-radius: 30px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.video-chat-next-section-btn span:nth-child(1){
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+
+.video-chat-next-section-btn span:nth-child(2){
+    width: 37px;
+    height: 37px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.video-chat-next-section-btn:hover {
+    opacity: 0.8;
+}
+
+.chat_text_box_recording {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    right: 2rem;
+    top: 8px;
+}
+
+.chat_text_box_recording>button:last-child {
+    margin-top: 10px;
+}
+
+/* dangerous and desprated */
+.MuiIconButton-label>input {
+    cursor: initial !important;
+}
+
+.role_play_top_tips {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 15px 15px 0;
+}
+
+.MuiIconButton-label {
+    cursor: default !important;
+}
+.talk_chart_contain {
+    margin-right: 0px !important;
+    margin-left:0;
+    justify-content: space-between;
+}
+.talk_chart {
+    margin-right: 10px !important;
+}
+@media (max-width: 991px) {
+    .flex-mobile-column-reverse {
+        flex-direction: column-reverse !important;
+    }
+
+    .chat_img_dev {
+        bottom: unset;
+    }
+}
+
+.chat_img_container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 0 16px 0px 0px;
+}
+
+@media (max-width: 1200px) {
+    .chat_img_container {
+        /* padding: 0 20px 0 0; */
+    }
+
+    .talk_script_main_box {
+        margin: 0 20px 0 0 !important;
+        /* height: 112px; */
+    }
+}
+
+.chat_name_box {
+    background-color: rgba(239, 239, 239, 0.5);
+    color: #333;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1000;
+    height: 23px;
+    width: 30rem;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 3px;
+    font-weight: 700;
+}
+
+.down_arrow_icon {
+    width: 10px;
+    height: 10px;
+}
+
+.selected-box {
+    background: var(--blue-light);
+    border: 1px solid var(--blue-light);
+}
+
+.slide-vertical-enter {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+.slide-vertical-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 300ms;
+}
+
+.slide-vertical-exit {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.slide-vertical-exit-active {
+    opacity: 0;
+    transition: all 300ms;
+    transform: translateY(-20px);
+}
+
+.video_chat_input_btn_keyboard_focus,
+.video_chat_input_btn_focus {
+    width: 75px;
+    min-height: 30px;
+    background: var(--alice-blue);
+    display: inline-block;
+    color: var(--blue-card);
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid transparent;
+    font-weight: bold;
+    box-shadow: 2px 2px 7px #808080;
+}
+
+.video_chat_input_btn_keyboard_focus {
+    position: absolute;
+    right: 2rem;
+    top: 29px;
+}
+
+.inner_text_button_disable {
+    color: #808080 !important;
+    background: #D3D3D3 !important;
+    border: #808080 !important;
+    cursor: not-allowed !important;
+}
+
+.inner_text_button_first {
+    width: 75px;
+    text-align: center;
+    min-height: 30px;
+    border: 1.5px solid transparent;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 2px 2px 7px #808080;
+}
+
+.role-play-handle-btn{
+    min-width: 80px;
+    height: 47px;
+    margin-left: 8px;
+    border-radius: 30px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    /* font-weight: 700; */
+    font-size: 16px;
+}
+
+
+@keyframes mic_blink {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.8;
+    }
+}
+
+.talk_script_main_box {
+    margin: 10px 25px 10px 0px;
+    /* height: 112px; */
+}
+
+.talk_script_main_box .talk_script_checkbox_button {
+    margin-right: -25px;
+    position: relative;
+}
+
+.talk_script_main_box .talk_script_gray_box {
+    width: 100%;
+    background: #F5F5F5;
+    border-radius: 5px;
+    height: 70%;
+    display: flex;
+}
+
+.role-play-handle-btn-not-start{
+    background: #D9D9D9;
+    border:1px solid #C5C5C5;
+    color: #9F9F9F;
+    cursor: not-allowed !important;
+    font-weight: 700;
+}
+
+.role-play-handle-btn-start{
+    background: #FFFFFF;
+    border: 1px solid #ffffff;
+    color: #333333;
+    font-weight: 500;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer !important;
+}
+.role-play-handle-btn-start:disabled{
+    background: #D9D9D9;
+    border:1px solid #C5C5C5;
+    color: #9F9F9F;
+    cursor: not-allowed !important;
+    font-weight: 700;
+}
+.role-play-handle-btn-active{
+    background: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 1px solid #00A5D9;
+    color: #00A5D9;
+    cursor: pointer !important;
+    font-weight: 700;
+}
+
+.talk_info_wrapper{
+    position: relative;
+    padding: 0 16px 0px 12px;
+}
+
+.talk_audiogram{
+    width: 276px;
+    height: 38px;
+    background-color: #DFF9FF;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 150px;
+}
+
+.talk_audiogram-middle-line{
+    width: 238px;
+    opacity: 0.2;
+    border-top: 1px solid #00A5D9;
+    position: absolute;
+    top: 50%;
+    left: 19px;
+}
+.flex-grow-chat-chart{
+    flex-grow: 9;
+    padding-left: 10px !important;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .responsive_size {
+        padding-left: 0 !important;
+    }
+
+    .talk_script_main_box {
+        margin: 0 20px 0 0 !important;
+        /* height: 112px; */
+    }
+
+    .video_chat_input_area {
+        padding: 5px 0px 5px 0;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .vitual_chat_avatar {
+        height: 133px;
+        width: 135px;
+    }
+
+}
+@media screen and (min-width: 1280px) {
+.chat_name_box {
+    background-color: rgba(239, 239, 239, 0.5);
+    color: #333;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1000;
+    height: 33px;
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 8px;
+    font-weight: 700;
+} 
+.vitual_chat_avatar {
+    height: 133px;
+    width: 135px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: -15px;
+}
+.main_chat_people {
+    width: 30rem;
+    height: 136px;
+    position: relative;
+    background: var(--blue-light);
+    max-width: inherit !important;
+}
+.video_chat_input_area {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 92px;
+    padding: 13px 0px 0px;
+    width: 100%;
+}
+.chat_img_container {
+    overflow: hidden;
+    position: relative;
+    width: 30rem;
+    padding: 0 16px 0px 10px;
+}
+.video-chat-keyword-list {
+    position: relative;
+    width: calc(100% + 20px);
+    left: -36px;
+}
+.video-chat-bottom-left-btn{
+    width: 37%;
+}
+.start-role-play-btn {
+    background-color: #00A5D9;
+    width: 190px;
+    height: 47px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.role-play-handle-btn{
+    min-width: 134px;
+    height: 47px;
+    margin-left: 16px;
+    border-radius: 30px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    /* font-weight: 700; */
+    font-size: 16px;
+}
+.close-role-play-btn{
+    width: 174px;
+    height: 47px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 22px;
+    margin-right: 5px;
+    line-height: 47px;
+}
+.video-chat-next-section-btn {
+    width: 174px;
+    height: 47px;
+    background-color: #00A5D9;
+    border-radius: 30px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.flex-grow-chat-chart{
+    flex-grow: 9;
+}
+.talk_chart {
+    margin-right: 16px !important;
+}
+.time_text_box {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 30px;
+    text-align: center;
+    background: url('../../../property/images/role-play-timer.svg') no-repeat left center;
+    color: #808080;
+    white-space: nowrap;
+    display: inline-block;
+}
+.start-role-play-btn-active {
+    animation-name: mic_blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    background-color: #C3E5F8;
+}
+}

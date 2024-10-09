@@ -1,0 +1,11 @@
+.back_btn {
+    width: 92px;
+    min-height: 36px;
+    padding: 4px;
+    color: var(--dune);
+    text-transform: uppercase;
+    border-radius: 5px;
+    border : 1px solid var(--cerulean);
+    background-color: rgba(255, 255, 255, 0.4);
+}
+

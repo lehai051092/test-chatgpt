@@ -1,0 +1,162 @@
+.slider_image{
+    position:relative;
+    width:100%;
+    height:57vh;
+}
+
+.slider_core{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+    text-align:center;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.slider_array{
+    position:absolute;
+    top: 9px;
+    height: auto;  
+    width: 100%;
+    height: 100%;
+}
+
+.slider_control{
+    position:absolute;
+    text-align: center;
+    bottom: 1.7%;
+    right: 1%;
+    width: 47px;
+    background: #D0D0D0;
+    border-radius: 20px;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    color: #333333;
+}
+
+
+.pdf_controller{
+    display: inline-flex;
+    height: 100%;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.pointer{
+    cursor:pointer;
+    user-select: none;
+    width: 100%;
+}
+
+.pointer_button_l{
+    margin-left: 15%;
+    width:60%;
+}
+
+.pointer_button_r{
+    width:60%;
+}
+
+.pointer_button_mobile_l{
+    margin-right: 15%;
+}
+
+.pointer_button_mobile_r{
+    margin-left: 15%;
+}
+
+
+.slider_array_bottom_plate{
+    position: relative;
+    width: 100%;
+    display: inline-flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.element_to_record_mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    inset: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.element_to_record_loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.pdf_modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+.modal_previous{
+    margin-right: 20px;
+    height: 1.5rem;
+}
+
+.modal_next{
+    margin-left: 20px;
+    height: 1.5rem;
+}
+
+
+
+
+@media (max-width:700px) and (min-width:360px) {
+    .slider_image{
+        height: 238px;
+    }
+    .pdf_controller{
+        width: 15%;
+    }
+    .slider_array_bottom_plate{
+        height: 100%;
+    }
+    .slider_control{
+        bottom: 57%;
+        right: -1%;
+        font-size: 12px;
+        transform: scale(0.7)
+    }
+}
+
+
+@media (max-width:1024px) and (min-width:700px) {
+    .slider_image{
+        height: 47vh;
+    }
+    .slider_array_bottom_plate{
+        height: 95%;
+        width: 74%;
+    }
+    .slider_control{
+        bottom: 7%;
+        font-size: 12px;
+        transform: scale(0.833333)
+    }
+}

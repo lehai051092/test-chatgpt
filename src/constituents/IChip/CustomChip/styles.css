@@ -1,0 +1,20 @@
+.chip{
+    padding: 8px 15px;
+    background-color: #F2F2F2;
+    border-radius: 8px;
+    margin-right: 10px;
+    border: 1px solid #D9D9D9;
+    display: inline-block;
+}
+.chip_free_story{
+    padding: 8px 15px;
+    background-color: #CAD8DF;
+    margin-right: 10px;
+    border: 1px solid #D9D9D9;
+    display: inline-block;
+}
+.chip >span>img{
+    width: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}

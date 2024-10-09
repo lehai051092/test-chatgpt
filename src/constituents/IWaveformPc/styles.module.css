@@ -1,0 +1,17 @@
+.wave_form{
+    position: relative;
+    width: 7vw;
+    height: 38px;
+    background: #DFF9FF;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.line{
+    position: absolute;
+    top: 25px;
+    left: 7px;
+    width: 7vw;
+    opacity: 0.5;
+    border: 1px solid #00A5D9;
+}

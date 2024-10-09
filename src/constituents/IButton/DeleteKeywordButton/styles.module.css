@@ -1,0 +1,14 @@
+
+.add_keyword_btn {
+    padding: 4px 6px 2px;
+    background: var(--white);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: inline-block;
+    outline: none;
+    color: var(--darkGray)
+}
+.add_keyword_btn>span {
+    margin-left: 4px;
+}

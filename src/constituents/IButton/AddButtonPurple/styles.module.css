@@ -1,0 +1,12 @@
+
+.add_btn {
+    min-width: 24px;
+    min-height: 20px;
+    background: var(--mediumSlateBlue);
+    color: var(--white);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15), inset 0px -1px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    display: inline-block;
+    outline: none;
+    border: 0;
+}

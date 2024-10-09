@@ -1,0 +1,69 @@
+
+.scenario_list{
+    height: 80px;
+    align-items: center;
+    font-weight: 700; 
+    box-shadow: #909090 0px 0px 5px;
+    background-color: var(--light-grey);
+    border-radius: 10px;
+    border: 1px solid #e6e6e6;
+}
+.pencil_img{
+    width: 26px;
+    height: 23px;
+}
+
+.subtitle_name{
+    line-height: 80px;
+    margin-left: 15px;
+}
+
+.scenario_add_btn{
+    /* width: 120px; */
+    min-height: 36px;
+    background: var(--alice-blue);
+    display: inline-block;
+    padding: 8px 16px;
+    color: var(--blue-card);
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid var(--cerulean);
+    font-weight: bold;
+}
+
+.scenario_reflect_btn{
+    width: 90px;
+    min-height: 36px;
+    background: var(--blue-card);
+    display: inline-block;
+    padding: 8px 16px;
+    color: var(--white);
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid var(--cerulean);
+    font-weight: bold;
+}
+
+.card_animation{
+    animation:up 1s ;
+}
+
+/* @keyframes down{
+    50%{transform:translateY(80px);}
+ } */
+
+@keyframes up{
+    50%{transform:translateY(-100px);}
+}
+
+.snackbar {
+    width: auto;
+    height: 40px;
+    /* background: rgb(76, 175, 80); */
+    border-radius: 4px;
+    color: white;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

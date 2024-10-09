@@ -1,0 +1,10 @@
+
+.bg_blue {    
+    background: var(--alice-blue);
+    display: inline-block;
+    padding: 8px 16px;
+    color: var(--blue-card);
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid var(--cerulean);
+}

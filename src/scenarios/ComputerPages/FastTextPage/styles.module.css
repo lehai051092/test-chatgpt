@@ -1,0 +1,168 @@
+
+.microphone_permissionm_font{
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.microphone_permissionm_control{
+    text-align: center;
+    margin-top: 20px;
+    /* display: flex; */
+}
+
+.cancel{
+    position: absolute;
+    cursor: pointer;
+    right: 2%;
+    top: 2%;
+    width: 25px;
+}
+
+.microphone_permissionm_button{
+    padding: 5px;
+    background: #00A5D9;
+    border: 2px solid #31619b;
+    border-radius:10px;
+    margin-right: 9px;
+    height: 60px;
+    width: 179px;
+    font-style: normal;
+    /* font-weight: bold; */
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.microphone_permissionm_bottom{
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+.microphone_permissionm_bottom_link{
+    font-size: 11px;
+    color: #307ecb;
+    text-decoration: underline;
+    cursor:pointer
+
+}
+
+.free_storyright_bottom_item{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.free_storyright_bottom_item_start{
+    position: relative;
+    display: inline-block;
+}
+
+.free_storyright_bottom_item_end{
+    position: relative;
+    display: inline-block;
+}
+@media screen and (min-width: 1200px) {
+    .free_storyright_bottom_item{
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+}
+
+
+.fast_text_page_flex_left{
+    width: 35vw;
+}
+
+.fast_text_page_flex_right{
+    width: 65vw;
+    margin-right: 2vw;
+    padding-left:2vw;
+}
+
+
+.fast_text_page_flex {
+    display: flex;
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+    height: 100%;
+    margin-left: 30px;
+    padding: 24px 0;
+}
+
+
+.fast_text_page_flex_right_avatar {
+    position: relative;
+    display: flex;
+    height: 25rem;
+    align-items: center;
+    justify-content: center;
+    background: #F5F5F5;
+    margin-bottom: 30px;
+    margin-left: 1rem;
+}
+
+.video_chat_input_area{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 92px;
+    padding: 13px 0px 0px;
+    width: 100%;
+    margin-left: 1rem;
+}
+
+.is_editing {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.main_chat_people{
+    width: auto;
+    height: 100%;
+    position: relative;
+    background: #F5F5F5;
+    max-width: inherit !important;
+}
+
+.chat_name_box{
+    background-color: rgba(239, 239, 239, 0.5);
+    color: #333;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    height: 28px;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 3px;
+    font-weight: 700;
+}
+
+.fast_text_buttons{
+    width: 101%;
+    position: absolute;
+    right: 8px;
+    bottom: -112px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.fast_text_bottom_left_btn{
+    width: 32%;
+}

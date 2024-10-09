@@ -1,0 +1,591 @@
+
+.microphone_permissionm_font{
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.microphone_permissionm_control{
+    text-align: center;
+    margin-top: 20px;
+    /* display: flex; */
+}
+
+.cancel{
+    position: absolute;
+    cursor: pointer;
+    right: 2%;
+    top: 2%;
+    width: 25px;
+}
+
+.microphone_permissionm_button{
+    padding: 5px;
+    background: #00A5D9;
+    border: 2px solid #31619b;
+    border-radius:10px;
+    margin-right: 9px;
+    height: 60px;
+    width: 179px;
+    font-style: normal;
+    /* font-weight: bold; */
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.microphone_permissionm_bottom{
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+.microphone_permissionm_bottom_link{
+    font-size: 11px;
+    color: #307ecb;
+    text-decoration: underline;
+    cursor:pointer
+
+}
+
+.free_storyright_bottom_item{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.free_storyright_bottom_item_start{
+    position: relative;
+    display: inline-block;
+}
+
+.free_storyright_bottom_item_end{
+    position: relative;
+    display: inline-block;
+}
+@media screen and (min-width: 1200px) {
+    .free_storyright_bottom_item{
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+}
+
+.video_chat_input_area{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 92px;
+    padding: 13px 0px 0px;
+    width: 100%;
+    margin-left: 1rem;
+}
+
+.main_chat_people{
+    width: auto;
+    height: 100%;
+    position: relative;
+    background: #F5F5F5;
+    max-width: inherit !important;
+}
+
+.chat_name_box{
+    background-color: rgba(239, 239, 239, 0.5);
+    color: #333;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1000;
+    height: 21px;
+    width: 100%;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 3px;
+    font-weight: 700;
+}
+
+.vertical_chat_name_box {
+    background-color: rgba(239, 239, 239, 0.5);
+    color: #333;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    height: 24px;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 3px;
+    font-weight: 700;
+}
+
+
+/* vertical ⬇ */
+
+.mobile_view .fast_text_name_context{
+    margin: 9px 0px 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mobile_view .fast_text_name_context label:first-child{
+    font-size: 18px;
+}
+
+.mobile_view .fast_text_name_context label:last-child{
+    font-size: 20px;
+}
+
+.mobile_view .fast_text_main_page{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px rgba(128, 128, 128, 0.25);
+    padding: 10px 16px 24px;
+    margin-bottom: 12px;
+}
+
+.mobile_view .fast_text_section_name{
+    display: flex;
+    color: #333333;
+    line-height: 34px;
+}
+
+.mobile_view .fast_text_section_name > p {
+    font-size: 14px;
+    /* white-space: nowrap; */
+}
+
+.mobile_view .fast_text_section_name > div {
+    font-size: 21px;
+}
+
+.mobile_view .fast_text_page_avatar {
+    height: 238px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F5F5F5;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.mobile_view .fast_text_main_bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile_view .start_role_play_btn{
+    background-color: #00A5D9;
+    width: 190px;
+    height: 47px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.mobile_view .start_role_play_btn img{
+    width: 14px;
+    height: 23px;
+    margin-right: 13px;
+}
+
+.mobile_view .start_role_play_btn_active{
+    display: none;
+}
+
+.mobile_view .fast_text_toggle_btns{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 16px 0px 12px 0px;
+}
+
+.mobile_view .chat_people_box {
+    /* background: var(--disable-low); */
+    background-image: url('../../../property/images/free_story/free_story_defalut_avatar.png');
+    background-size: 86px 84px;
+    width: 86px;
+    height: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.mobile_view .chat_people_box_blank {
+    width: 86px;
+    height: 84px;
+}
+
+.mobile_view .chat_people_box_blank img{
+    width: 86px;
+    height: 84px;
+    max-width: 86px;
+}
+
+
+.mobile_view .video_chat_input {
+    height: 227px;
+    background: var(--white);
+    -webkit-appearance: none; 
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.8);
+    -webkit-box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.8);
+    border-radius: 10px;
+    display: block;
+    padding: 10px 30px 10px 20px;
+    resize: none;
+    font-size: 14px;
+    position: relative;
+    color: #000000;
+    border:unset;
+    margin-left: 10px;
+    flex-grow: 1;
+    opacity: 1 !important;
+}
+
+.mobile_view .video_chat_input:focus{
+    border: 1px solid #00A5D9;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.8);
+}
+
+.mobile_view .video_chat_input::-webkit-input-placeholder{
+    color: #000000;
+}
+
+.mobile_view .fast_text_controller_btns{
+    width: 100vw;
+    height: 73px;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.mobile_view .fast_text_pause_btns{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 76px;
+}
+
+.mobile_view .fast_text_pause_btns button:last-child{
+    margin-left: 12px;
+}
+
+.mobile_view .fast_text_pause_btn{
+    width: 173px;
+    height: 54px;
+    background: #D9D9D9;
+    border: 1px solid #C5C5C5;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #9F9F9F;
+    padding: 10px 14px;
+}
+
+.mobile_view .fast_text_pause_btn_started{
+    width: 173px;
+    height: 54px;
+    background: #ffffff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+    padding: 10px 14px;
+}
+
+.mobile_view .role_play_handle_btn{
+    width: 89px;
+    height: 46px;
+    margin-left: 8px;
+    border-radius: 30px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 46px;
+}
+
+.mobile_view .role_play_reflect_btn_active{
+    background: #00A5D9;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: #fff;
+    cursor: pointer !important;
+    font-weight: 700;
+}
+
+.mobile_view .role_play_respeak_btn_active{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background: #FFFFFF;
+    color: #333333;
+    font-weight: 700;
+}
+
+.mobile_view .role_play_handle_btn_not_start{
+    background: #D9D9D9;
+    border:1px solid #C5C5C5;
+    color: #9F9F9F;
+    cursor: not-allowed !important;
+    font-weight: 700;
+}
+
+.mobile_view .submit_role_play_btn{
+    width: 113px;
+    height: 46px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 5px;
+    border: 1px solid #C5C5C5;
+}
+
+.mobile_view .submit_role_play_btn_gray {
+    background: #D9D9D9;
+    
+}
+
+.mobile_view .submit_role_play_btn_orange {
+    background: #DC8827;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+/* landscape ⬇ */
+
+.mobile_view .fast_text_main_page_landscape{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px rgba(128, 128, 128, 0.25);
+    padding: 9px 12px 12px;
+    margin: 0 auto 8px;
+    display: flex;
+}
+
+.mobile_view .fast_text_main_left_landscape{
+    width: 50%;
+    padding-right: 0px;
+    padding-left: 0px;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+}
+
+.fast_text_section_name_landscape{
+    color: #333333;
+}
+
+.mobile_view .fast_text_section_name_landscape > p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.mobile_view .fast_text_section_name_landscape > div {
+    font-size: 21px;
+}
+
+.mobile_view .start_role_play_btn_wrapper_landscape{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fast_text_main_left_middle_landscape{
+    flex-grow: 1;
+    height: 145px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-bottom: 5px;
+}
+
+.mobile_view .fast_text_toggle_btns_landscape{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 16px;
+}
+
+.mobile_view .fast_text_toggle_btns_landscape > div{
+    width: 100%;
+}
+
+.mobile_view .fast_text_controller_btns_landscape{
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.mobile_view .role_play_handle_btn_landscape{
+    height: 37px;
+    margin-right: 8px;
+    border-radius: 30px;
+    padding: 0 14px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.mobile_view .role_play_reflect_btn_active_landscape{
+    background: #00A5D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    font-weight: 700;
+}
+
+.mobile_view .role_play_respeak_btn_active_landscape{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #333;
+    font-weight: 700;
+}
+
+.mobile_view .submit_role_play_btn_landscape{
+    min-width: 80px;
+    height: 37px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    border: 1px solid #C5C5C5;
+    white-space: nowrap;
+}
+
+.mobile_view .fast_text_main_right_landscape{
+    width: 50%;
+    max-width: 50%;
+    padding-right: 0px;
+}
+
+.mobile_view .fast_text_page_avatar_landcape {
+    height: 174px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F5F5F5;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.mobile_view .chat_people_box_landscape {
+    /* background: var(--disable-low); */
+    background-image: url('../../../property/images/free_story/free_story_defalut_avatar.png');
+    background-size: 47px 46px;
+    width: 47px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.mobile_view .chat_people_box_blank_landscape {
+    width: 47px;
+    height: 45px;
+}
+
+.mobile_view .chat_people_box_blank_landscape img{
+    width: 47px;
+    height: 45px;
+    max-width: 47px;
+}
+
+.mobile_view .video_chat_input_landscape{
+    height: 59px;
+    background: var(--white);
+    -webkit-appearance: none; 
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.25);;
+    border-radius: 8px;
+    padding: 10px 30px 10px 20px;
+    resize: none;
+    font-size: 14px;
+    position: relative;
+    color: #000000;
+    border:unset;
+    margin: 0px 8px;
+    flex-grow: 1;
+    opacity: 1 !important;
+}
+
+.mobile_view .video_chat_input_landscape:focus{
+    border: 1px solid #00A5D9;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.8);
+}
+
+.mobile_view .video_chat_input_landscape::-webkit-input-placeholder{
+    color: #000000;
+}
+
+.mobile_view .fast_text_pause_btns_landscape button:last-child{
+    margin-left: 12px;
+}
+
+.mobile_view .fast_text_pause_btn_landscape{
+    min-width: 104px;
+    height: 33px;
+    background: #D9D9D9;
+    border: 1px solid #CACACA;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #9F9F9F;
+    padding: 6px 24px 5px;
+}
+
+.mobile_view .fast_text_pause_btn_started_landscape{
+    min-width: 104px;
+    height: 33px;
+    background: #ffffff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    color: #333333;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 6px 24px 5px;
+}
+
+.mobile_view .timer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mobile_view .time>img{
+    margin-top: -3px;
+}
+
+.mobile_view .timer span{
+    line-height: 26px;
+    font-size: 14px;
+    white-space: nowrap;
+    margin-left: 3px;
+}
+
+.editing_area {
+    margin-top: -8px;
+}
+
+.is_vertical_editing {
+    font-size: 12px;
+}
+
+.is_editing {
+    font-size: 9px;
+    white-space: nowrap;
+}

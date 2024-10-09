@@ -1,0 +1,21 @@
+.detail_btn:focus {
+    box-shadow: initial;
+}
+.detail_btn span {
+    color: var(--blue-card);
+    font-weight: bold;
+}
+.list_box {
+    padding: 16px;
+    border-top: 0.5px dashed #808080;
+}
+.list_box:first-child {
+    margin-top: 16px;
+}
+.list_box:last-child {
+    padding-bottom: 0;
+}
+.detail_info{
+    line-height: 16px;
+}
+

@@ -1,0 +1,84 @@
+.free_story_key_display{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.free_story_key_display_landscape{
+    width: 90%;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.mobile_previous{
+    margin-right: 17px;
+    height: 1.35rem;
+}
+
+.mobile_next{
+    margin-left: 17px;
+    height: 1.35rem;
+}
+
+.task_list_card {
+    position: relative;
+    display: block;
+    box-shadow: 0px 0px 7px rgba(128, 128, 128, 0.8);
+    width: 94%;
+    background: #FFFFFF;
+    z-index: 999;
+    overflow: hidden;
+    transition: all 1s;
+    padding-top: 0.7rem;
+    min-height: 49px;
+}
+
+.task_list_card_selection {
+    position: absolute;
+    padding-left: 5px;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 35px;
+    background-color: #00A5D9;
+    clip-path: polygon(0  0, 100% 0, 0 100%);
+}
+
+.task_list_card_unselection {
+    position: absolute;
+    padding-left: 5px;
+    top: 0;
+    left: 0;
+    height: 32px;
+    width: 32px;
+    background-color: #D6D8D9;
+    clip-path: polygon(0  0, 100% 0, 0 100%);
+}
+
+.task_list_card_context {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 21px;
+    padding-bottom: 6px;
+    padding-right: 11px;
+}
+
+.card_title_select {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4D4D4D;
+}
+
+.card_title_unselected {
+    font-style: normal;
+    font-size: 16px;
+    margin-left: 8px;
+    line-height: 26px;
+    color: #4D4D4D;
+}

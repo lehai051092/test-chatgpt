@@ -1,0 +1,31 @@
+
+.add_keyword_btn {
+    min-width: 176px;
+    min-height: 54px;
+    background: var(--white);
+    padding: 8px 16px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    border: 1px solid #808080;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: left; 
+}
+.add_keyword_btn input {
+    border: 0;
+    height: 100%;
+    /* width: 30px; */
+}
+.add_keyword_btn button {
+    background: transparent;
+    font-size: 20px;
+    display: block; 
+    float: right;
+    line-height: 0.9;
+    margin-left: 24px;
+    outline: none;
+    padding: 0;
+}

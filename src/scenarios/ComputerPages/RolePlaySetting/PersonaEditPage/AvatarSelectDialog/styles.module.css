@@ -1,0 +1,19 @@
+.avatar_grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.avatar_item{
+    padding: 5px;
+}
+
+.avatar_item_selected{
+    border: 2px solid rgb(67, 176, 230);
+    border-radius: 4px;
+}
+
+.avatar_item_not_selected{
+    border: 2px solid white;
+    border-radius: 2px;
+}
+

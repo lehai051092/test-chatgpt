@@ -1,0 +1,183 @@
+
+.selected_persona_content_folder_btn_wrapper{
+    background: var(--white);
+    color: var(--lightSkyBlue);
+    border-radius: 8px;
+    padding: 8px 24px 8px 16px;
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-bottom: 8px;
+    box-shadow: 2px 4px 9px 0px rgb(0 0 0 / 23%), inset 0px -1px 0px rgb(0 0 0 / 14%);
+}
+.selected_persona_content_folder_btn_wrapper.selected_persona_content_active{
+    background: var(--lightSkyBlue);
+    color: var(--white);
+}
+.selected_persona_content_folder_btn_wrapper:first-child{
+    border-radius: 20px 20px 8px 8px;
+}
+.selected_persona_content_folder_btn_wrapper:last-child{
+    border-radius: 8px 8px 20px 20px;
+}
+.selected_persona_content_folder_btn_wrapper .fa-angle-right{
+    color: var(--icon-btn);
+}
+.completion_history_wapper{
+    border-radius: 8px 8px 20px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    padding: 32px;
+    margin-top: 8px;
+}
+.completion_status{
+    background: #3F414E;
+    color: #FAF7F2;
+    width: 125px;
+    min-height: 19px;
+    padding: 1px 6px;
+    font-size: var(--card-btn-title);
+    border-radius: 6px;
+}
+.completion_history_content{
+    display: grid;
+    grid-template-columns: 25% 73%;
+    grid-column-gap: 24px;
+}
+.total_accuracy{
+    /* background: var(--darkGray);
+    height: 67.67px;
+    color: var(--white);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 20px 20px 8px 8px;
+    display: grid;
+    grid-template-columns: 20% 38% 27% 15%; */
+
+    background: var(--darkGray);
+    min-height: 68px;
+    color: var(--white);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px 20px 8px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+.total_accuracy ul{
+    display: flex;
+    list-style: none;
+    /* padding-top: 26px; */
+    margin: 0 0 0 32px; 
+    padding: 0;
+}
+.result_state{
+    width: 49px;
+    min-height: 26px;
+    background: var(--white);
+    color: var(--black);
+    border-radius: 6px;
+    /* margin: 20px 20px; */
+    padding: 4px 5px;
+    font-size: var(--card-btn-title);
+
+    margin: 0;
+}
+.total_accuracy_text{
+    font-size: var(--card-title);
+    /* line-height: 22px;
+    padding-top: 26px; */
+    margin: 0;
+}
+.circle_li{
+    background: var(--white);
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin-right: 4px;
+    position: relative;
+    top: 1px;
+}
+.circle_li.circle_green{
+    background: #6CB28E;
+}
+.circle_li.circle_yellow{
+    background: #FFCF86;
+}
+.circle_li.circle_red{
+    background: #FA6E5A;
+}
+.percentage_list{
+    margin-right: 12px;
+    font-size: var(--card-btn-title);
+    line-height: 18px;
+}
+
+.chat_img{
+    /* margin: 7px 28px; */
+}
+.key_words{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 8px 8px 20px 20px;
+    padding: 25px 24px;
+    margin-top: 8px;
+}
+.key_word_content{
+    /* display: grid;
+    grid-template-columns: 10% 90%; */
+    display: flex;
+    align-items: center;
+}
+.content_left p{
+    width: 64px;
+    min-height: 26px;
+    background: var(--black);
+    color: var(--white);
+    border-radius: 6px;
+    font-size: var(--card-btn-title);
+    line-height: 18px;
+    padding: 6px 5px;
+    margin: 0 16px 0 0;
+}
+.content_right{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-row-gap: 10px;
+}
+.word_content{
+    width: 62px;
+    min-height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-size: var(--content-text);
+    line-height: 22px;
+    padding: 4px 12px;
+    margin-right: 8px;
+}
+.word_content.word_content_check{
+    display: flex;
+    align-items: center;
+    padding: 4px 5px;
+    width: 68px;
+    background: #6CB28E;
+    color: white;
+    margin-right: 8px;
+}
+.word_content.word_content_check>svg {
+    margin-right: 4px;
+}
+.word_content.check svg{
+    top: 4px;
+    position: relative;
+    margin-right: 4px;
+}
+.chat_show{
+    border: 1px solid #d3d3c4;
+    border-radius: 6px;
+    height: 600px;
+    margin-top: 23px;
+}

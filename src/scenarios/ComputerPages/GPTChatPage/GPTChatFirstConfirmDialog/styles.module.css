@@ -1,0 +1,94 @@
+.confirm_dialog_width {
+  width: 700px;
+  margin: 0 auto !important;
+  padding: 24px;
+  border-radius: 10px !important;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+.dialog_title_box {
+  font-size: 18px;
+  text-align: left;
+
+  & ul {
+    padding: 0;
+
+    & li {
+      margin-bottom: 20px;
+      list-style: none;
+      display: flex;
+    }
+  }
+}
+
+.flex_center {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.btn {
+  font-size: 20px;
+  background-color: #00A5D9;
+  width: 190px;
+  height: 47px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+}
+
+.return_btn {
+  font-size: 20px;
+  background-color: #fff;
+  width: 190px;
+  height: 47px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+
+@media screen and (max-width: 450px) {
+  .confirm_dialog_width {
+    width: 80%;
+  }
+
+  .dialog_title_box {
+    font-size: 12px;
+    padding: 0;
+  }
+}
+
+.is_landscape_sp {
+  & .dialog_title_box {
+    font-size: 12px;
+  }
+
+  & .buttons_wrap {
+    display: flex;
+  }
+
+  & .return_btn {
+    margin-top: 0;
+    margin-left: 10px;
+  }
+
+  & button {
+    font-size: 14px;
+    width: 150px;
+    height: 35px;
+  }
+
+  .flex_center {
+    margin: 10px 0;
+  }
+}
+
+.flex {
+  display: flex;
+}

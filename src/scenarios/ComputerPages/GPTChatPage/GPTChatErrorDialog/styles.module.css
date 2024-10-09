@@ -1,0 +1,48 @@
+.confirm_dialog_width{
+    max-width: 536px !important;
+    width: 536px !important;
+    margin: 0 auto !important;
+    padding: 16px !important;
+    border-radius: 10px !important;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1) !important;
+}
+.cancel{
+    cursor: pointer;
+    left: '95%';
+    top: '-9%';
+}
+.confirm_dialog_width button {
+    border-radius: 12px;
+}
+.confirm_dialog_width button:first-child {
+    border: 2px solid #037599;
+}
+.dialog_title_box {
+    overflow: initial !important;
+    color: var(--red);
+}
+.no_btn {
+    width: 100%;
+    min-height: 55px;
+    background: #FFFFFF;
+    display: inline-block;
+    padding: 8px 16px;
+    color: #333333;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid var(--cerulean);
+    font-weight: bold; 
+    margin-right: 0 !important;
+    box-shadow: 2px 2px 7px #808080;
+}
+.yes_btn{
+    box-shadow: 2px 2px 7px #808080;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+    .confirm_dialog_width{
+        max-width: 376px !important;
+        width: 278px !important;        
+    }
+}

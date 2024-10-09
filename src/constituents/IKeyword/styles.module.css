@@ -1,0 +1,54 @@
+
+.keyword_wrapper{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 16px 16px 12px; 
+}
+
+.keyword_wrapper:last-child{
+    /* border-radius: 0 0 20px 20px;
+    margin-bottom: 100px; */
+    border-bottom: 0;
+}
+
+.keyword_input{
+    background: var(--white);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: inset 0px 2px 8px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+    padding: 6px 10px;
+    margin-right: 4px;
+}
+.keyword_added_box{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 8px 4px 4px 8px;
+    padding: 8px 16px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.keyword_added_box span{
+    font-size: var(--content-text);
+    line-height: 22px;
+}
+.keyword_added_box svg{
+    color: var(--darkGray);
+    margin-left: 12px;
+}
+.keyword_add_btn{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 8px 4px 4px 8px;
+    padding: 8px 16px;
+    color: var(--mediumSlateBlue);
+    margin-bottom: 5px;
+}
+.keyword_add_btn svg{
+    margin-right: 10px;
+}
+.remove_keyword svg{
+    color: var(--darkGray);
+    top: 10px;
+    position: relative;
+    float: right;
+}

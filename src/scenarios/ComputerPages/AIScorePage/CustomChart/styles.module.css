@@ -1,0 +1,242 @@
+.chart_main_box_out {
+    /* min-width: 300px; */
+    height: 300px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 47px 0;
+    direction: rtl;
+}
+.chart_main_box {
+    /* min-width: 300px; */
+    height: 190px;
+    position: relative;
+}
+.chart_main_box_inr {
+    width: 100%;
+    height: 100%; 
+    display: table;
+    padding-left: 60px;
+    position: relative;
+    z-index: 1;
+    font-size: 12px;
+}
+.style_align_to_right > div{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+}
+.style_align_to_right > div > div{
+    display: flex !important;
+    /* 
+    * justify-content doesn't work for safari
+    flex-direction: column;
+    justify-content: end; */
+    flex-direction: row;
+    align-items: flex-end;
+}
+.score_update_label {
+    display: block;
+    position: absolute;
+    width: calc(100% - 33px);
+    border-bottom: 1px solid #E2242C;
+    left: 33px;
+    text-align: center;
+    z-index: 2;
+    color: #E2242C;
+}
+.chart_per_label {    
+    position: absolute !important;
+    height: 100% !important;
+    width: 100%;
+    z-index: 0;
+    left: 0;
+}
+.chart_out_per_label>p {
+    margin: -6px 0 0 14px;
+}
+.chart_out_per_label ul,
+.chart_per_label ul {
+    list-style: none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.chart_out_per_label ul li {
+    border-top: 0 !important;
+}
+.chart_out_per_label ul li,
+.chart_per_label ul li {
+    height: 25%;
+    border-top: 1px dashed #4F4F4F;
+    display: flex;
+    align-items: flex-start;
+}
+.chart_out_per_label ul li p,
+.chart_per_label ul li p {
+    margin: -12px 0 0;
+    width: 60px;
+    background: #fff;
+    padding-left: 6px;
+}
+.chart_out_per_label li:nth-child(1) p, 
+.chart_per_label ul li:nth-child(1) p {
+    padding-left: 0;
+}
+.chart_box {
+    height: 100%;
+    width: 90px;
+    display: table-cell;
+    vertical-align: bottom;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+.chart_box > div:first-child {
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+    font-weight: bold;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.score_rate_less {
+    /* background: #E2242C; */
+    background: #D8EDC5;
+    color: black;
+}
+.score_rate_medium {
+    /* background: #E98300; */
+    background: #93F4CB;
+    color: black;
+
+}
+.score_rate_more {
+    /* background: #00A5D9; */
+    background: #3991C2;
+    color: white;
+}
+.month_label {
+    margin: 0 0 -32px;
+    padding-top: 13px;
+    width: 90px;
+}
+
+.chart_main_box_out::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+    height: 12px;
+}
+.chart_main_box_out::-webkit-scrollbar-track {
+    background: var(--grey-goose);
+    border-radius: 10px; /* roundness of the scroll thumb */
+}
+.chart_main_box_out::-webkit-scrollbar-thumb {
+    background-color: var(--blue-card); /* color of the scroll thumb */
+    border-radius: 10px; /* roundness of the scroll thumb */
+    border: 2px solid var(--grey-goose); /* creates padding around scroll thumb */
+}
+.chart_out_per_label2 {
+    height: calc(100% - 42px);
+    position: absolute;
+    background: #fff;
+    z-index: 99;
+    left: 34px;
+    width: 60px;
+    top: 0;
+}
+.chart_out_per_label {
+    position: absolute;
+    height: calc(100% - 140px);
+    top: 102px;
+    z-index: 9;
+    background: #fff;
+    font-size: 12px;
+
+}
+.chart_per_label p {
+    opacity: 0 !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .chart_main_box_out {
+        height: 259px;
+        padding: 38px 0;
+    }
+    .chart_main_box {
+        height: 166px;
+    }
+    .chart_out_per_label2 {
+    height: calc(100% - 50px);
+    left: 21px;
+    top: 0;
+    }
+    .chart_out_per_label {
+        height: calc(100% - 49px);
+        top: 71px;
+    }
+    .chart_out_per_label>p {
+        margin: -34px 0 0 14px;
+    }
+        
+}
+.bar_70{
+    color: #E98300;
+    padding-top: 6px;
+}
+
+.bar_chart_flag_icon{
+    position: relative;
+    bottom: 4rem;
+}
+.bar_chart_flag_text{
+    position: relative;
+    bottom: 4rem;
+    display: block;
+    color: black;
+    width: auto;
+}
+.flag_icon::before{
+    content:'';
+    background: url('../../../../property//icons//score_flag.png'); /*url of image*/
+    height: 18px;
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: -33px;
+    left: 13px;
+}
+.flag_icon::after{
+    content: '全セクション';
+    position: absolute;
+    top: -13px;
+    left: -15px;
+    color: #808080;
+    width: 74px;
+    font-size: 8px;
+}
+.mobile_view .chart_out_per_label{
+    height: calc(100% - 73px);
+    top: 69px;
+}
+.mobile_view .chart_out_per_label>p {
+    margin: -31px 0 0 14px;
+}
+
+.chart_out_per_label_tablet{
+    top: 10px;
+}
+
+.chart_out_per_label_tablet .chart_out_per_label{
+    height: calc(100% - 60px);
+}
+
+.chart_out_per_label_tablet ul li p{
+    margin: -19px 0 0;
+}
+.chart_out_per_label_tablet .chart_out_per_label p{
+    font-size: 14px;
+}

@@ -1,0 +1,68 @@
+
+.card {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 108px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: inset 0px 2px 8px rgb(0 0 0 / 10%);
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.grid_1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 26px;
+  background: var(--darkGray);
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 12px;
+  color: #faf7f2;
+}
+.grid_2 {
+  grid-area: g_2;
+}
+.disable .grid_3 {
+  opacity: 0.25;
+}
+.grid_4 {
+  grid-area: g_4;
+}
+/* IE11 hide native button (thanks Matt!) */
+.grid_4 select::-ms-expand {
+  display: none;
+}
+.grid_4:after {
+  content: "<>";
+  font: 12px "Consolas", monospace;
+  color: #8E97FD;
+  transform: rotate( 90deg);
+  right: 3px;
+  top: 6px;
+  position: absolute;
+  pointer-events: none;
+}
+.grid_4 {
+  background-color: var(--white);
+  font-size: 12px;
+  color: var(--mediumSlateBlue);
+  position: relative;
+}
+.grid_4 select {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  -ms-word-break: normal;
+  word-break: normal;
+  display: block;
+  width: 100%;
+  padding: 4px 24px 4px 4px;
+  color: var(--mediumSlateBlue);
+}
+

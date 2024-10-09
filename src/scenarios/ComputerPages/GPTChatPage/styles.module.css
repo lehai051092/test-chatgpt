@@ -1,0 +1,328 @@
+
+.microphone_permissionm_font{
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.microphone_permissionm_control{
+    text-align: center;
+    margin-top: 20px;
+    /* display: flex; */
+}
+
+.cancel{
+    position: absolute;
+    cursor: pointer;
+    right: 2%;
+    top: 2%;
+    width: 25px;
+}
+
+.microphone_permissionm_button{
+    padding: 5px;
+    background: #00A5D9;
+    border: 2px solid #31619b;
+    border-radius:10px;
+    margin-right: 9px;
+    height: 60px;
+    width: 179px;
+    font-style: normal;
+    /* font-weight: bold; */
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.microphone_permissionm_bottom{
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+.microphone_permissionm_bottom_link{
+    font-size: 11px;
+    color: #307ecb;
+    text-decoration: underline;
+    cursor:pointer
+
+}
+
+.free_storyright_bottom_item{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.free_storyright_bottom_item_start{
+    position: relative;
+    display: inline-block;
+}
+
+.free_storyright_bottom_item_end{
+    position: relative;
+    display: inline-block;
+}
+@media screen and (min-width: 1200px) {
+    .free_storyright_bottom_item{
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+}
+
+
+.fast_text_page_flex_left{
+    width: 30vw;
+}
+
+.fast_text_page_flex_right{
+    width: 30vw;
+    padding-right: 20px;
+    padding-left: 20px;
+    min-height: 545px;
+    overflow-y: auto;
+}
+
+.fast_text_page_flex_right2{
+    width: 35vw;
+    max-width: 500px;
+    margin-right: 20px;
+}
+.chatNext {
+    position: relative;
+}
+.chatIconPoyoPoyo {
+    position: absolute;
+    animation: poyopoyo 2s ease-out infinite;
+    opacity: 1;
+    font-size: 13px;
+    padding: 8px;
+    background: rgba(0, 165, 217, 1);
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.8);
+    color: #fff;
+    border-radius: 4px;
+    top: -55px;
+    left: 0;
+    width: 180PX;
+    text-align: center;
+    font-weight: bold;
+    &:before {
+        position: absolute;
+        content: '';
+        width: 10px;
+        height: 10px;
+        background: rgba(0, 165, 217, 1);
+        bottom: -5px;
+        left: 50%;
+        transform: rotate(45deg);
+    }
+}
+@keyframes poyopoyo {
+    0%,
+    40%,
+    60%,
+    80% {
+        transform: scale(1);
+    }
+    50%,
+    70% {
+        transform: scale(0.95);
+    }
+}
+
+.fast_text_page_flex {
+    display: flex;
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+    height: calc(100vh - 140px);
+    min-height: 540px;
+    margin-left: 30px;
+    padding: 24px 0;
+}
+.chat_person_name {
+    background-color: rgba(239, 239, 239, 0.5);
+    color: #333;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    height: 30px;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: 700;
+}
+
+.fast_text_page_flex_right_avatar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F5F5F5;
+    margin-bottom: 10px;
+}
+
+.main_chat_people{
+    position: relative;
+    max-height: 270px;
+    max-width: 270px;
+    width: 100%;
+    height: 100%;
+}
+
+.video_chat_input_button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.video_chat_input {
+    width: 100%;
+    height: 100%;
+    background: var(--white);
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.8);
+    border-radius: 10px;
+    display: block;
+    padding: 10px 30px 10px 20px;
+    resize: none;
+    font-size: 14px;
+    position: relative;
+    color: #6D6D6D;
+    border:unset;
+}
+
+.video_chat_input_in_focus {
+    border: solid 1px rgb(0 165 217);
+}
+
+.talk_chart {
+    margin-right: 5px;
+}
+
+.countdown {
+    margin-right: 5px;
+}
+
+.is_editing {
+    margin-top: 13px;
+    font-size: 12px;
+}
+
+.chat_people_box_blank {
+    width: 92px;
+    height: 86px;
+    & img {
+        width: 90px;
+        height: 86px;
+        max-width: 90px;
+    }
+}
+
+.video_chat_input_area{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 10px 0 0;
+    width: 100%;
+}
+.warning_area {
+    margin-top: 10px;
+    border-radius: 10px;
+    display: block;
+    padding: 5px;
+    resize: none;
+    font-size: 14px;
+    position: relative;
+    color: #6D6D6D;
+    border:unset;
+    width: 100%;
+}
+
+.time_text_box {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 30px;
+    text-align: center;
+    background: url('../../../property/images/role-play-timer-black.svg') no-repeat left center;
+    color: #4d4d4d;
+    white-space: nowrap;
+    display: inline-block;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.sendGPTIncomingMessage {
+    height: 92px;
+}
+
+.chat_name_box{
+    background-color: rgba(239, 239, 239, 0.5);
+    color: #333;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    height: 23px;
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 3px;
+    font-weight: 700;
+}
+
+.fast_text_buttons {
+    width: calc(100% - 107px);
+    position: fixed;
+    left: 108px;
+    padding: 10px 20px 10px 20px;
+    background: rgba(229, 229, 229, 0.8);
+    z-index: 1001;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.fast_text_bottom_left_btn{
+    width: 32%;
+}
+
+.textarea_row {
+    height: calc(100vh - 580px);
+    min-height: 130px;
+}
+
+@media screen and (max-width: 1100px) {
+    .video_chat_input_button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .time_text_box {
+        width: auto;
+        height: 40px;
+        line-height: 40px;
+        padding-left: 22px;
+        text-align: center;
+        background: url('../../../property/images/role-play-timer-black.svg') no-repeat left center;
+        white-space: nowrap;
+        display: inline-block;
+    }
+}

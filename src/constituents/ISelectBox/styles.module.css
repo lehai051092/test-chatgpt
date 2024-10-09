@@ -1,0 +1,31 @@
+
+.cmn_select_box {
+    background-color: var(--white);
+    font-size: 12px;
+    color: var(--mediumSlateBlue);
+    position: relative;
+}
+.cmn_select_box select {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    -ms-word-break: normal;
+    word-break: normal;
+    display: block;
+    width: 100%;
+    padding: 4px 24px 4px 4px;
+    color: var(--mediumSlateBlue);
+}
+.cmn_select_box select::-ms-expand {
+    display: none;
+}
+.cmn_select_box:after {
+    content: "<>";
+    font: 12px "Consolas", monospace;
+    color: var(--mediumSlateBlue);
+    transform: rotate( 90deg);
+    right: 3px;
+    top: 6px;
+    position: absolute;
+    pointer-events: none;
+}

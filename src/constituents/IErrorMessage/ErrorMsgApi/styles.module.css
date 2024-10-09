@@ -1,0 +1,31 @@
+.error_message_box {
+    max-width: 590px;
+    background: var(--white);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+    position: absolute;
+    right: 18px;
+    top: 65px;
+    z-index: 9999;
+}
+.error_message_box_dis {
+    display: none;
+    right: -1000px;
+    z-index: 0;
+}
+.error_message_box>p {
+    margin: 0;
+    padding-left: 16px;
+    font-weight: bold;
+}
+.close_btn {
+    position: absolute;
+    width: 24px;
+    right: -12px;
+    top: -12px;
+    cursor: pointer;
+}

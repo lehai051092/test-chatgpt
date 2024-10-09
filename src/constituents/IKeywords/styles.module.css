@@ -1,0 +1,41 @@
+
+.keyword_wrapper{
+    /* border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    padding: 24px;
+    border-radius: 20px 20px 0 0; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);;
+}
+.keyword_text_border {
+    background: var(--darkGray);
+    border-radius: 6px;
+    font-size: var(--card-btn-title);
+    line-height: 18px;
+    padding: 4px;
+    color: var(--white);
+}
+.keyword_input{
+    /* background: var(--white);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: inset 0px 2px 8px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+    padding: 6px 10px;
+    margin-right: 4px; */
+}
+.save_btn{
+    color: var(--white);
+    font-size: var(--content-text);
+    background: var(--mediumSlateBlue);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15), inset 0px -1px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-right: 4px;
+}
+
+.cancel_btn{
+    font-size: var(--content-text);
+    background: var(--white);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1), inset 0px 0px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 4px 8px 8px 4px;
+    margin-right: 4px;
+}

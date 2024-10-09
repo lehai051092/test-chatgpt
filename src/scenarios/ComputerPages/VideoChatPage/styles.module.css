@@ -1,0 +1,122 @@
+
+.microphone_permissionm_font{
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.microphone_permissionm_control{
+    text-align: center;
+    margin-top: 20px;
+    /* display: flex; */
+}
+
+.cancel{
+    position: absolute;
+    cursor: pointer;
+    right: 2%;
+    top: 2%;
+    width: 25px;
+}
+
+.microphone_permissionm_button{
+    padding: 5px;
+    background: #00A5D9;
+    border: 2px solid #31619b;
+    border-radius:10px;
+    margin-right: 9px;
+    height: 60px;
+    width: 179px;
+    font-style: normal;
+    /* font-weight: bold; */
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.microphone_permissionm_bottom{
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+.microphone_permissionm_bottom_link{
+    font-size: 11px;
+    color: #307ecb;
+    text-decoration: underline;
+    cursor:pointer
+
+}
+
+.free_storyright_bottom_item{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.free_storyright_bottom_item_start{
+    position: relative;
+    display: inline-block;
+}
+
+.free_storyright_bottom_item_end{
+    position: relative;
+    display: inline-block;
+}
+@media screen and (min-width: 1200px) {
+    .free_storyright_bottom_item{
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+}
+
+.restartRolePlayBtn {
+    background-color: #E78321;
+    width: 190px;
+    height: 47px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.restartRolePlayBtnImg{
+    width: 14px;
+    height: 23px;
+    margin-bottom: 10px;
+}
+.restartRolePlayBtnSpan{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 47px;
+
+    color: #FFFFFF;
+    margin-left: 13px;
+}
+
+.timer {
+    display: flex;
+    flex-flow: column;
+}
+
+.is_editing {
+    margin-top: -8px;
+    margin-left: 0;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 1440px) {
+    .timer {
+        display: flex;
+        flex-flow: row;
+    }
+
+    .is_editing {
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+}

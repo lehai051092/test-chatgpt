@@ -1,0 +1,21 @@
+.agency_list {
+  border-radius: 20px 20px 20px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.agency_list tr:first-child th {
+  border: 0;
+  color: var(--mediumSlateBlue);
+  font-size: 12px;
+  font-weight: normal;
+}
+.agency_list tr:nth-child(1) td {
+  border-top: 0;
+}
+.agency_list a {
+  color: var(--mediumSlateBlue);
+}
+.border_top_non{
+  border-top: 0 !important;
+}

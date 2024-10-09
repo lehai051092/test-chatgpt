@@ -1,0 +1,76 @@
+.root {
+  overflow-y: auto;
+}
+
+.containerWrap {
+  width: 100%;
+}
+
+.buttonsWrap {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.saveWrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonsSaveWrap {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contentWrap {
+  margin-top: 30px;
+}
+
+.warning {
+  margin-top: 5px;
+  color: red;
+}
+
+.evaluation_btn {
+  background: #fff;
+  min-width: 200px;
+  border: 1px solid #55a3d4;
+  font-weight: bold;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #55a3d4;
+  display: flex;
+  align-items: center;
+  padding: 0.5px;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  height: 45px;
+
+  & img {
+    margin-right: 10px;
+  }
+}
+
+.saveButton {
+  display: block;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.cancelButton {
+  display: block;
+  cursor: pointer;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  background: #fff;
+  color: #111;
+  border: none;
+}

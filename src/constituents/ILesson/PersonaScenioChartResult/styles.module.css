@@ -1,0 +1,67 @@
+.persona_scenio_chart_result{
+    background: #3F414E;
+    color: white;
+    border-radius: 8px;
+    padding: 32px;
+    margin-top: 8px;
+}
+.chart_result_content{
+    display: grid;
+    grid-template-columns: 32% 21% 47%;
+}
+.text{
+    width: 49px;
+    height: 26px;
+    background: #FAF7F2;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 4px 6px;
+    font-size: 12px;
+    margin-bottom: 9px;
+}
+.head_text{
+    font-size: 20px;
+    line-height: 22px;
+}
+.percentage_lists{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.percentage_list{
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.circle_li{
+    background: var(--white);
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin-right: 12px;
+    position: relative;
+    top: -1px;
+}
+.circle_li.circle_green{
+    background: #6CB28E;
+}
+.circle_li.circle_yellow{
+    background: #FFCF86;
+}
+.circle_li.circle_red{
+    background: #FA6E5A;
+}
+.under_head_text{
+    color: #B6B8BF;
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 22px;
+}
+.under_text{
+    font-size: 12px;
+    line-height: 18px;
+    color: #A0A3B1;
+}

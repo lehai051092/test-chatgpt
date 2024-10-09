@@ -1,0 +1,1283 @@
+/* .human_img {
+  max-width: 60px;
+} */
+
+/* .w_6 {
+  width: 22%;
+} */
+
+/* .progress_bar {
+  background: var(--alice-blue);
+  width: 100%;
+  height: 10px;
+  border-radius: 20px;
+} */
+
+/* .progress_bar_per {
+  background: var(--blue-card);
+  border-radius: 20px;
+  height: 10px;
+  width: 50%;
+  display: block;
+  position: relative;
+} */
+
+/* .progress_bar_per:after {
+  content: "";
+  width: 2px;
+  height: 14px;
+  background-color: var(--blue-card);
+  position: absolute;
+  right: -3px;
+  bottom: -2px;
+} */
+
+/* .progress_bar_img {
+  width: 52px;
+  position: absolute;
+  bottom: 20px;
+  z-index: 3;
+} */
+
+/* .persona_progress_img {
+  height: 71px;
+  object-fit: cover;
+} */
+
+/* .progress_bar_text {
+  position: absolute;
+  bottom: 10px;
+} */
+
+/* .progress_bar_challenge {
+  position: absolute;
+  bottom: 12px;
+  right: 13px;
+} */
+
+/* .right_0 {
+  right: 50%;
+} */
+
+.progress_bar_msg {
+  z-index: 2;
+  background-color: #CCE3F2;
+  display: inline-block;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 20px;
+  position: absolute;
+  top: -76px;
+  width: 161px;
+  left: 64px;
+  text-align: center;
+  z-index: 99;
+}
+
+.progress_bar_msg:before {
+  content: url(../../../../property/images/roleplay_card/progress_msg_bg2.png);
+  position: absolute;
+  bottom: -16px;
+  left: 12px;
+}
+
+.progress_bar_msg_end:before {
+  content: url(../../../../property/images/roleplay_card/progress_msg_end_bg2.png);
+  position: absolute;
+  bottom: -14px;
+  left: 10px;
+}
+
+/* .progress_bar.msg_to_right {
+  left: 50px;
+} */
+
+.progress_bar_msg.msg_left:after {
+  transform: rotateY(180deg);
+  right: 12px;
+}
+
+.roleplay_step2_tb {
+  background-color: #CAD8DF;
+  border: 1px solid #CAD8DF;
+  border-radius: 5px;
+  border-collapse: unset;
+  border-spacing: 0;
+}
+
+.roleplay_step2_tb td {
+  width: 25%;
+  border-bottom: 1px solid #CAD8DF;
+  border-top: 0;
+  vertical-align: middle;
+  padding: 4px 8px;
+  text-align: center;
+  color: var(--dune);
+  white-space: nowrap;
+}
+
+.roleplay_step2_tb_tablet td:nth-child(odd){
+  width: 22%;
+}
+
+.roleplay_step2_tb_tablet td:nth-child(even){
+  width: 28%;
+}
+
+
+.roleplay_step2_tb tr td:nth-of-type(odd){
+  border-bottom-color: var(--white);
+}
+
+.roleplay_step2_tb tr td:nth-of-type(even){
+  border-bottom-color: #CAD8DF;
+  background-color: var(--white);
+}
+
+.roleplay_step2_tb tr:first-child td:first-child {
+  border-top-left-radius: 5px;
+}
+
+.roleplay_step2_tb tr:first-child td:last-child {
+  border-top-right-radius: 5px;
+}
+
+.roleplay_step2_tb tr:last-child td:last-child {
+  border-bottom-right-radius: 5px;
+}
+
+.roleplay_step2_tb tr:last-child td:first-child {
+  border-bottom-left-radius: 5px;
+}
+
+.roleplay_step2_tb tr:last-child td {
+  border-bottom: 0;
+}
+
+.start_img {
+  max-width: 15px;
+}
+
+.black_circle {
+  background: black;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 25px;
+  position: relative;
+  bottom: 0.5px;
+}
+
+.btn_font_adjust {
+  height: 36px;
+  width: 94px;
+  left: 250px;
+  top: 19px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  display: inline-block;
+  padding: 8px 16px;
+  color: #333333;
+  text-align: center;
+  border: 1px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+  font-weight: 500 !important;
+  line-height: 22px;
+  font-size: 15px !important;
+  min-height: 47px !important;
+  margin-top: 0 !important;
+}
+
+.border_right {
+  border-right: 2px solid var(--blue-card);
+  font-weight: bold;
+}
+
+.select_all_scenario {
+  background: var(--blue-card);
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.decision_btn {
+  width: calc(100% - 32px);
+  color: var(--dune);
+  font-weight: 700;
+  border: 0;
+  background: #1C3664;
+  color: white;
+  box-shadow: 2px 3px 10px 0px #888888;
+}
+
+.table_view_decision_btn{
+  width: 230px;
+}
+
+.rp_progressbar {
+  position: relative;
+  padding: 0 53px;
+}
+
+.rogressbar_one_goal_ul_pc{
+  width: 1200px;
+}
+
+.one_goal_start_pc::after{
+  width: 530px !important;
+}
+
+.rogressbar_two_goals_ul_pc{
+  width: 950px;
+}
+
+.rogressbar_two_goals_ul_pc li::after{
+  width: 235px !important;
+}
+
+.rogressbar_three_goals_ul_pc{
+  width: 830px;
+}
+
+.rogressbar_three_goals_ul_pc li::after{
+  width: 130px !important;
+}
+
+.rogressbar_four_goals_ul_pc{
+  width: 800px;
+}
+
+.rogressbar_four_goals_ul_pc li::after{
+  width: 100px !important;
+}
+
+.rp_progressbar ul {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100px;
+}
+
+.rp_progressbar ul li:last-child:after {
+  display: none;
+}
+
+.rp_progressbar ul li {
+  position: relative;
+}
+
+.rp_progressbar li .goal_png {
+  width: 76px;
+}
+
+.rp_progressbar li .start_png {
+  width: 74px !important;
+  position: relative;
+  z-index: 1;
+}
+
+.rp_progressbar li .end_png {
+  width: 100px !important;
+}
+
+.rp_progressbar li span {
+  width: 30px;
+  height: 21px;
+  background: var(--gray);
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+.rp_progressbar .prog_start span {
+  width: 53px;
+  height: 37px;
+}
+
+.rp_progressbar .prog_goal span {
+  background-color: var(--orange-0);
+}
+
+.themename_container span {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.themename_container span:last-child {
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.themename_container {
+  margin-bottom: 20px;
+}
+
+.tablet_themename_container {
+  font-weight: bold;
+  line-height: 37px;
+  margin-bottom: 20px;
+}
+
+.tablet_themename_container>span:nth-child(1) {
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+.tablet_themename_container>span:nth-child(2) {
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+.tablet_themename_container>span:nth-child(3) {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.tablet_themename_container>span:nth-child(4) {
+  font-size: 16px;
+}
+
+
+.themename_wrapper {
+  position: relative;
+  top: 16px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.rp_progressbar ul .prog_unactive:after {
+  content: "";
+  position: absolute;
+  height: 7px;
+  width: 68px;
+  background-color: #CAD8DF;
+  bottom: 9px;
+  margin-left: -2px;
+}
+
+.rp_progressbar ul .prog_active:after {
+  content: "";
+  position: absolute;
+  height: 7px;
+  width: 68px;
+  background-color: #3F89BE;
+  bottom: 9px;
+  margin-left: -2px;
+}
+
+.v_person_icon_1 {
+  width: 75.77px;
+  height: 75.77px;
+  position: absolute;
+  top: -66px;
+  max-width: unset !important;
+  z-index: 99;
+}
+
+.v_person_icon_end {
+  width: 75.77px;
+  height: 75.77px;
+  position: absolute;
+  top: -36px;
+  max-width: unset !important;
+}
+
+.progress_bar_msg_end {
+  top: -62px !important;
+  width: auto;
+  left: -12px;
+}
+
+.progress_bar_msg_end_tablet{
+  left: -20px;
+}
+
+.fix {
+  letter-spacing: -2px;
+}
+
+.themename_container_span_child1{
+  white-space: nowrap;
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .btn_font_adjust {
+    display: none !important;
+  }
+
+  .themename_container_flex {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .themename_container {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  .themename_container_span_child1 {
+    font-size: 18px !important;
+    line-height: 30px !important;
+  }
+
+  .themename_container_span_child2 {
+    font-size: 20px !important;
+    line-height: 25px !important;
+  }
+
+  .themename_wrapper {
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    line-height: 26px !important;
+    text-align: center !important;
+    color: #333333 !important;
+    position: relative !important;
+    top: -10px !important;
+  }
+
+  .mr1 {
+    margin-right: 0 !important;
+  }
+
+  .pd9 {
+    padding-left: 9px !important;
+    padding-right: 9px !important;
+  }
+
+  .pd0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .tl {
+    text-align: left !important;
+  }
+
+  .font_14 {
+    font-size: 14px;
+  }
+
+  .rp_progressbar {
+    position: relative;
+    padding: 0;
+  }
+
+  .rp_progressbar ul {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+
+  .rp_progressbar ul li:last-child:after {
+    display: none;
+  }
+
+  .rp_progressbar ul li {
+    position: relative;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  .rp_progressbar ul li img {
+    max-width: unset;
+  }
+
+  .rp_progressbar ul li:first-child {
+    position: relative;
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+
+  .rp_progressbar ul li:first-child img:first-child {
+    left: -13px;
+  }
+
+  .rp_progressbar ul li:first-child img:last-child {
+    left: unset;
+  }
+
+  .rp_progressbar ul li:last-child {
+    position: relative;
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+
+  .rp_progressbar li .goal_png {
+    min-width: 24px;
+    max-width: 30px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .rp_progressbar li .start_png {
+    width: 52px !important;
+    position: relative;
+    z-index: 1;
+  }
+
+  .rp_progressbar li .end_png {
+    width: 66px !important;
+  }
+
+  .rp_progressbar li span {
+    width: 30px;
+    height: 21px;
+    background: var(--gray);
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+  }
+
+  .rp_progressbar .prog_start span {
+    width: 53px;
+    height: 37px;
+  }
+
+  .rp_progressbar .prog_goal span {
+    background-color: var(--orange-0);
+  }
+
+  .decision_btn {
+    width: calc(90% - 31px);
+
+  }
+
+  .rp_progressbar ul .prog_unactive:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 96%;
+    background-color: #CAD8DF !important;
+    bottom: 7px;
+    margin-left: 0px;
+  }
+
+  .rp_progressbar ul .prog_active:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 96%;
+    background-color: #3F89BE;
+    bottom: 7px;
+    margin-left: 0px;
+  }
+
+  .rp_progressbar ul .prog_exceed7_start_active_short:after {
+    width: 50% !important;
+  }
+
+  .rp_progressbar ul .prog_exceed7_start_active:after {
+    content: "";
+    height: 4px;
+    width: 50%;
+    background-color: #3F89BE;
+    bottom: 7px;
+    margin-left: 0px;
+    transform: rotate(-25deg);
+    top: 15px;
+    left: 49px;
+  }
+
+  .rp_progressbar ul .prog_exceed7_last_odd_active:after {
+    content: "" !important;
+    height: 4px !important;
+    width: 70% !important;
+    background-color: #3F89BE;
+    bottom: 7px !important;
+    margin-left: 0px !important;
+    transform: rotate(25deg) !important;
+    top: 18px !important;
+    left: 17px !important;
+  }
+
+  .rp_progressbar ul .prog_exceed7_last_even_active:after {
+    content: "" !important;
+    height: 4px !important;
+    width: 70% !important;
+    background-color: #3F89BE;
+    bottom: 7px !important;
+    margin-left: 0px !important;
+    transform: rotate(0) !important;
+    top: 12px !important;
+    left: 17px !important;
+  }
+
+  .rp_progressbar ul .prog_exceed7_odd_active:after {
+    content: "";
+    height: 4px;
+    width: 50%;
+    background-color: #3F89BE;
+    bottom: 7px;
+    margin-left: 0px;
+    transform: rotate(-45deg);
+    top: -1px;
+    left: 22px;
+  }
+
+  .rp_progressbar ul .prog_exceed7_even_active:after {
+    content: "";
+    height: 4px;
+    width: 50%;
+    background-color: #3F89BE;
+    bottom: 7px;
+    margin-left: 0px;
+    transform: rotate(45deg);
+    top: 20px;
+    left: 15px;
+  }
+
+  .clear_p_m {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .v_person_icon_1 {
+    top: -69px;
+    left: -22px;
+    z-index: 2;
+  }
+
+  .progress_bar_msg {
+    top: -100px;
+    max-width: 146px;
+    left: 30px;
+  }
+
+  .v_person_icon_end {
+    width: 75.77px;
+    height: 75.77px;
+    position: absolute;
+    top: -46px;
+    left: -12px;
+    z-index: 2;
+  }
+
+  .progress_bar_msg_half_end {
+    top: -105px !important;
+    left: -125px;
+  }
+
+  .progress_bar_msg_half_end:before {
+    content: url(../../../../property/images/roleplay_card/progress_msg_end_bg2.png);
+    position: absolute;
+    bottom: -15px;
+    left: 100px;
+  }
+
+  .progress_bar_msg_end {
+    top: -77px !important;
+    left: -75px;
+  }
+
+  .progress_bar_msg_end:before {
+    content: url(../../../../property/images/roleplay_card/progress_msg_end_bg2.png);
+    position: absolute;
+    bottom: -15px;
+    left: 60px;
+  }
+}
+
+@media (max-width: 765px) and (min-width: 429px) {
+  .one_goal_start_mb::after{
+    width: calc(70vw - 118px) !important;
+  }
+}
+
+@media (max-width: 926px) and (min-width: 769px) {
+  .one_goal_start_mb::after{
+    width: calc(70vw - 174px) !important;
+  }
+}
+
+@media (max-width: 765px) and (min-width: 429px), (max-width: 926px) and (min-width: 769px){
+  .rogressbar_one_goal_ul_mb{
+    width: 70vw;
+  }
+
+  .rogressbar_two_goals_ul_mb_landscape li::after{
+    width: 165px !important;
+  }
+
+  .rogressbar_three_goals_ul_mb_landscape li::after{
+    width: 115px !important;
+  }
+
+  .rogressbar_four_goals_ul_mb_landscape li::after{
+    width: 80px !important;
+  }
+
+  .rogressbar_five_goals_ul_mb_landscape li::after{
+    width: 60px !important;
+  }
+
+  .one_goal_start_mb{
+    flex-grow: 1 !important;
+  }
+
+  .one_goal_end_mb{
+    flex-grow: 0 !important;
+  }
+
+  .themename_container_flex {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .themename_container {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  .themename_container_span_child1 {
+    font-size: 18px !important;
+    line-height: 30px !important;
+  }
+
+  .themename_container_span_child2 {
+    font-size: 20px !important;
+    line-height: 25px !important;
+  }
+
+  .themename_wrapper {
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    line-height: 26px !important;
+    text-align: center !important;
+    color: #333333 !important;
+    position: relative !important;
+    top: -10px !important;
+  }
+
+  .rp_progressbar li .goal_png {
+    min-width: 24px;
+    max-width: 50px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .v_person_icon_1 {
+    top: -67px;
+    left: -13px;
+    z-index: 2;
+  }
+
+  .rp_progressbar ul .prog_unactive:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 98%;
+    background-color: #CAD8DF !important;
+    bottom: 7px;
+    margin-left: 0px;
+  }
+
+  .rp_progressbar ul .prog_exceed7_start_active_short:after {
+    width: 50% !important;
+  }
+
+  .rp_progressbar ul .prog_exceed7_start_active:after {
+    content: "";
+    height: 4px;
+    width: 50%;
+    background-color: #3F89BE;
+    bottom: 7px;
+    margin-left: 0px;
+    transform: rotate(-15deg);
+    bottom: 20px;
+  }
+
+  .rp_progressbar ul .prog_exceed7_last_odd_active:after {
+    content: "" !important;
+    height: 4px !important;
+    width: 90% !important;
+    background-color: #3F89BE;
+    bottom: 7px !important;
+    margin-left: 0px !important;
+    transform: rotate(15deg) !important;
+    top: 22px !important;
+    left: 38px !important;
+  }
+
+  .rp_progressbar ul .prog_exceed7_last_even_active:after {
+    content: "" !important;
+    height: 4px !important;
+    width: 70% !important;
+    background-color: #3F89BE;
+    bottom: 7px !important;
+    margin-left: 0px !important;
+    transform: rotate(0) !important;
+    top: 12px !important;
+    left: 17px !important;
+  }
+
+  .rp_progressbar ul .prog_exceed7_odd_active:after {
+    content: "";
+    height: 4px;
+    width: 80%;
+    background-color: #3F89BE;
+    bottom: 7px;
+    margin-left: 0px;
+    transform: rotate(-15deg);
+    top: -1px;
+    left: 30px;
+  }
+
+  .rp_progressbar ul .prog_exceed7_even_active:after {
+    content: "";
+    height: 4px;
+    width: 80%;
+    background-color: #3F89BE;
+    bottom: 7px;
+    margin-left: 0px;
+    transform: rotate(15deg);
+    top: 20px;
+    left: 35px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 766px){
+  .rp_progressbar li .goal_png {
+    min-width: 24px;
+    max-width: 50px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .v_person_icon_1 {
+    top: -69px;
+    left: -12px;
+    z-index: 2;
+  }
+
+  .rp_progressbar ul .prog_exceed7_start_active_short:after {
+    width: 50% !important;
+  }
+
+  .rp_progressbar ul .prog_exceed7_start_active:after {
+    content: "";
+    height: 4px;
+    width: 60%;
+    background-color: #3F89BE;
+    bottom: 7px;
+    margin-left: 0px;
+    transform: rotate(-15deg);
+    top: 15px;
+    left: 49px;
+  }
+
+  .rp_progressbar ul .prog_exceed7_last_odd_active:after {
+    content: "" !important;
+    height: 4px !important;
+    width: 90% !important;
+    background-color: #3F89BE;
+    bottom: 7px !important;
+    margin-left: 0px !important;
+    transform: rotate(15deg) !important;
+    top: 18px !important;
+    left: 17px !important;
+  }
+
+  .rp_progressbar ul .prog_exceed7_last_even_active:after {
+    content: "" !important;
+    height: 4px !important;
+    width: 70% !important;
+    background-color: #3F89BE;
+    bottom: 7px !important;
+    margin-left: 0px !important;
+    transform: rotate(0) !important;
+    top: 12px !important;
+    left: 17px !important;
+  }
+
+  .rp_progressbar ul .prog_exceed7_odd_active:after {
+    content: "";
+    height: 4px;
+    width: 80%;
+    background-color: #3F89BE;
+    bottom: 7px;
+    margin-left: 0px;
+    transform: rotate(-15deg);
+    top: -1px;
+    left: 22px;
+  }
+
+  .rp_progressbar ul .prog_exceed7_even_active:after {
+    content: "";
+    height: 4px;
+    width: 80%;
+    background-color: #3F89BE;
+    bottom: 7px;
+    margin-left: 0px;
+    transform: rotate(15deg);
+    top: 20px;
+    left: 15px;
+  }
+
+}
+
+
+@media (max-width: 1350px) and (min-width: 1200px) {
+  .mw50 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .rogressbar_one_goal_ul_pc{
+    width: 900px;
+  }
+  
+  .one_goal_start_pc::after{
+    width: 430px !important;
+  }
+
+  .rogressbar_two_goals_ul_pc{
+    width: 780px;
+  }
+  
+  .rogressbar_two_goals_ul_pc li::after{
+    width: 180px !important;
+  }
+
+  .rogressbar_three_goals_ul_pc{
+    width: 700px;
+  }
+  
+  .rogressbar_three_goals_ul_pc li::after{
+    width: 95px !important;
+  }
+
+  .rogressbar_four_goals_ul_pc{
+    width: 670px;
+  }
+  
+  .rogressbar_four_goals_ul_pc li::after{
+    width: 60px !important;
+  }
+}
+
+.progressbar_tablet{
+  padding: 0 15px;
+  margin: 40px auto 20px;
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  .rogressbar_one_goal_ul_pc{
+    width: 750px;
+  }
+  
+  .one_goal_start_pc::after{
+    width: 340px !important;
+    height: 7px !important;
+  }
+
+  .rogressbar_two_goals_ul_pc{
+    width: 770px;
+  }
+  
+  .rogressbar_two_goals_ul_pc li::after{
+    width: 185px !important;
+    height: 7px !important;
+  }
+
+  .rogressbar_three_goals_ul_pc{
+    width: 740px;
+  }
+  
+  .rogressbar_three_goals_ul_pc li::after{
+    width: 120px !important;
+  }
+
+  .rogressbar_four_goals_ul_pc{
+    width: 670px;
+  }
+  
+  .rogressbar_four_goals_ul_pc li::after{
+    width: 70px !important;
+    height: 7px !important;
+  }
+
+  .progressbar_tablet .v_person_icon_1{
+    z-index: 10;
+  }
+
+  .progressbar_tablet .progress_bar_msg{
+    font-size: 14px;
+  }
+
+  .progressbar_tablet ul:last-child::after {
+    content: none !important;
+  }
+
+  .progressbar_tablet ul .prog_unactive::after {
+    content: "";
+    height: 4px;
+    width: 68px;
+    position: absolute;
+    background-color: #CAD8DF;
+  }
+
+  .progressbar_tablet ul .prog_active::after {
+    content: "";
+    height: 4px;
+    width: 68px;
+    position: absolute;
+    background-color: #3F89BE;
+  }
+
+  .progressbar_tablet ul .prog_exceed7_start_horizontal_tablet{
+    padding-right: 8px;
+  }
+  .progressbar_tablet ul .prog_exceed7_start_horizontal_tablet::after{
+    left: 75px;
+  }
+
+  .progressbar_tablet ul .prog_exceed7_start_diagonal_tablet{
+    padding-right: 0px;
+  }
+  .progressbar_tablet ul .prog_exceed7_start_diagonal_tablet::after{
+    content: "";
+    height: 4px;
+    width: 50%;
+    transform: rotate(-20deg);
+    top: 6px;
+    left: 70px;
+  }
+
+  .progressbar_tablet ul .prog_exceed7_odd_tablet .goal_png{
+    position: relative;
+    z-index: 1;
+    max-width: 76px;
+  }
+
+  .progressbar_tablet ul .prog_exceed7_odd_tablet::after{
+    content: "";
+    height: 4px;
+    width: 50%;
+    transform: rotate(-20deg);
+    top: -1px;
+    left: 42px;
+  }
+
+  .progressbar_tablet ul .prog_exceed7_even_tablet .goal_png{
+    position: relative;
+    z-index: 1;
+    max-width: 76px;
+  }
+
+  .progressbar_tablet ul .prog_exceed7_even_tablet::after{
+    content: "";
+    height: 4px;
+    width: 50%;
+    transform: rotate(20deg);
+    bottom: -4px;
+    left: 56px;
+  }
+
+  .progressbar_tablet ul .prog_exceed7_last_even_tablet::after{
+    content: "";
+    height: 4px;
+    width: 50%;
+    transform: rotate(0deg);
+    top: 25px;
+    left: 76px;
+  }
+
+  .progressbar_tablet .prog_goal{
+    position: relative;
+    z-index: 11;
+  }
+
+}
+
+@media (max-width: 1199px) and (min-width: 1024px) {
+  .progressbar_tablet{
+    padding: 0 85px;
+  }
+
+  .progressbar_tablet .v_person_icon_1{
+    z-index: 10;
+  }
+  
+  .progressbar_tablet .progress_bar_msg{
+    font-size: 14px;
+  }
+  
+  .progressbar_tablet ul:last-child::after {
+    content: none !important;
+  }
+
+  .progressbar_tablet ul .prog_unactive::after {
+    content: "";
+    height: 4px;
+    width: 90px;
+    position: absolute;
+    background-color: #CAD8DF;
+  }
+
+  .progressbar_tablet ul .prog_active::after {
+    content: "";
+    height: 4px;
+    width: 90px;
+    position: absolute;
+    background-color: #3F89BE;
+  }
+
+  .progressbar_tablet ul .prog_exceed7_start_horizontal_tablet{
+    left: 20px;
+  }
+
+  .progressbar_tablet ul .prog_exceed7_start_horizontal_tablet::after{
+    content: "";
+    width: 50%;
+    left: 75px;
+  }
+
+  .progressbar_tablet ul .prog_exceed7_start_diagonal_tablet{
+    padding-right: 20px;
+  }
+
+  .progressbar_tablet ul .prog_exceed7_start_diagonal_tablet::after{
+    content: "";
+    height: 4px;
+    width: 80%;
+    transform: rotate(-13deg);
+    top: 13px;
+    left: 65px;
+  }
+
+  .progressbar_tablet ul .prog_exceed7_odd_tablet .goal_png{
+    position: relative;
+    z-index: 1;
+  }
+
+  .progressbar_tablet ul .prog_exceed7_odd_tablet::after{
+    content: "";
+    height: 4px;
+    width: 100%;
+    transform: rotate(-13deg);
+    top: -2px;
+    left: 55px;
+  }
+
+  .progressbar_tablet ul .prog_exceed7_even_tablet .goal_png{
+    position: relative;
+    z-index: 1;
+  }
+
+  .progressbar_tablet ul .prog_exceed7_even_tablet::after{
+    content: "";
+    height: 4px;
+    width: 100%;
+    transform: rotate(13deg);
+    top: 42px;
+    left: 56px;
+  }
+
+  .progressbar_tablet ul .prog_exceed7_last_even_tablet::after{
+    content: "";
+    height: 4px;
+    width: 50%;
+    transform: rotate(0deg);
+    top: 27px;
+    left: 77px;
+  }
+
+  .progressbar_tablet .prog_goal{
+    position: relative;
+    z-index: 11;
+  }
+
+  .progressbar_tablet .prog_goal_horizontal{
+    left: -65px !important;
+    top: -35px !important;
+  }
+  
+}
+
+@media screen and (min-width: 1850px) {
+  .progressbar_pc ul .prog_unactive:after {
+    content: "";
+    position: absolute;
+    height: 7px;
+    width: 105px;
+    background-color: #CAD8DF;
+    bottom: 9px;
+    margin-left: -2px;
+  }
+
+  .progressbar_pc ul .prog_active:after {
+    content: "";
+    position: absolute;
+    height: 7px;
+    width: 105px;
+    background-color: #3F89BE;
+    bottom: 9px;
+    margin-left: -2px;
+  }
+}
+
+@media (max-width: 1849px) and (min-width: 1700px) {
+  .progressbar_pc ul .prog_unactive:after {
+    content: "";
+    position: absolute;
+    height: 7px;
+    width: 94px;
+    background-color: #CAD8DF;
+    bottom: 9px;
+    margin-left: -2px;
+  }
+
+  .progressbar_pc ul .prog_active:after {
+    content: "";
+    position: absolute;
+    height: 7px;
+    width: 94px;
+    background-color: #3F89BE;
+    bottom: 9px;
+    margin-left: -2px;
+  }
+}
+.rogressbar_one_goal_ul_tb li::after{
+  width: calc(100vw - 250px) !important;
+}
+
+.rogressbar_one_goal_ul_tb_landscape li::after{
+  width: calc(100vw - 370px) !important;
+}
+
+.rogressbar_two_goals_ul_tb li::after{
+  width: 270px !important;
+}
+
+.rogressbar_two_goals_ul_tb_landscape li::after{
+  width: 335px !important;
+}
+
+.rogressbar_three_goals_ul_tb li::after{
+  width: 195px !important;
+}
+
+.rogressbar_four_goals_ul_tb li::after{
+  width: 130px !important;
+}

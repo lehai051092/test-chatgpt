@@ -1,0 +1,59 @@
+
+.selected_persona_folder_card_top{
+    background: var(--lightSkyBlue);
+    padding: 21px 13px;
+    height: 63px;
+    border-radius: 20px 20px 0 0;
+}
+.folder_card_count{
+    background: var(--cadetBlue);
+    padding: 10px 16px;
+    color: var(--white);
+    border-radius: 10px;
+}
+.folder_card_status{
+    background: var(--white);
+    padding: 10px 16px;
+    border-radius: 10px;
+    float: right;
+    margin-top: -12px;
+}
+.folder_card_status span{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.selected_persona_folder_card_bottom{
+    background: var(--cornflowerBlue);
+    color: var(--white);
+    padding: 16px 17px;
+    border-radius: 0 0 20px 20px;
+}
+
+.selected_persona_folder_card_bottom span{
+    display: block;
+}
+.foler_text{
+    font-size: var(--card-btn-title);
+}
+
+.foler_text_name{
+    font-size: var(--card-title);
+}
+
+.selected_persona_folder_card{
+    /*  */
+}
+
+.selected_persona_folder_card.private .selected_persona_folder_card_bottom{
+    background: var(--disable-deep);
+}
+.selected_persona_folder_card.private .selected_persona_folder_card_top{
+    background: var(--disable-low);
+}
+.selected_persona_folder_card.private .selected_persona_folder_card_top .folder_card_count{
+    background: var(--disable-deep);
+}
+.selected_persona_folder_card.private .selected_persona_folder_card_top .folder_card_status{
+    background: var(--disable-deep);
+    color: var(--white);
+}

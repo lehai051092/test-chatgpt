@@ -1,0 +1,62 @@
+{
+    "words" :[
+        {
+            "name" : "あのー",
+            "count" : "1回"
+        },
+        {
+            "name" : "なんか",
+            "count" : "1回"
+        },
+        {
+            "name" : "ちょっと",
+            "count" : "1回"
+        },
+        {
+            "name" : "えー",
+            "count" : "3回"
+        },
+        {
+            "name" : "はいはい",
+            "count" : "2回"
+        },
+        {
+            "name" : "まあ",
+            "count" : "1回"
+        }
+    ],
+    "ng_words" :[
+        {
+            "name" : "絶対",
+            "isMatched" : true
+        },
+        {
+            "name" : "古い",
+            "isMatched" : false
+        },
+        {
+            "name" : "100%",
+            "isMatched" : true
+        },
+        {
+            "name" : "昔の",
+            "isMatched" : false
+        },
+        {
+            "name" : "悪い",
+            "isMatched" : false
+        },
+        {
+            "name" : "損します",
+            "isMatched" : true
+        },
+        {
+            "name" : "時代遅れ",
+            "isMatched" : false
+        },
+        {
+            "name" : "間違いなく",
+            "isMatched" : false
+        }
+    ]
+}

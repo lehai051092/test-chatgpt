@@ -1,0 +1,54 @@
+.export_button {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15), inset 0px -1px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    width: 200px !important;
+}
+.height_64 {
+    min-height: 64px !important;
+}
+.big_box{
+    width: 100%;
+    min-height: 400px;
+    background: #FAFAFA;
+}
+.small_box{
+    padding: 32px 0 0px 33px;
+    min-width: 600px;
+}
+
+.export_file_area{
+    border-radius: 8px;
+}
+
+.radio_cursor span {
+    position: relative !important;
+    left: 0;
+}
+.radio_cursor>span:first-child {
+    opacity: 0 !important;
+    position: absolute !important;
+}
+.radio_label {
+    background: white;
+    min-width: 90px;
+    min-height: 30px;
+    padding: 4px 16px;
+    margin: 0 8px 8px 0!important;
+    /* text-align: center; */
+    border-radius: 3px;
+    color: #333333;
+    font-weight: 500;
+    font-size: 14px;
+    border: 1px solid #B4B4B4;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15)
+}
+.radio_active {
+    background-color: #55a3d4;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+}
+.radio_no_active {
+
+}

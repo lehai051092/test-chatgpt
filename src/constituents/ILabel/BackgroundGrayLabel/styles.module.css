@@ -1,0 +1,10 @@
+
+.bg_blue {   
+    display: inline-block; 
+    background: var(--grey-goose);
+    padding: 8px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}

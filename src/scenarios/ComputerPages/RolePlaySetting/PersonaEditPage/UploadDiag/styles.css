@@ -1,0 +1,64 @@
+.root{
+    position: relative;
+    left: calc(115px / 2);
+}
+.confirm_pdf_dialog_width{
+    max-width: 750px !important;
+    width: 750px !important;
+    margin: 0 auto !important;
+    padding: 16px !important;
+    border-radius: 10px !important;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1) !important;
+}
+.cancel{
+    cursor: pointer;
+    left: '95%';
+    top: '-9%';
+}
+.dialog_title_box {
+    overflow: initial !important;
+}
+.pdf-message-box-sec {
+    display: block;
+    margin: 32px 0 16px;
+    padding: 40px 8px;
+    text-align: center;
+    border: 1px dashed #808080;
+}
+
+@keyframes spinner {
+    to {transform: rotate(360deg);}
+}
+
+.spinner{
+    cursor: not-allowed;
+}
+
+.spinner:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 6%;
+    left: 64%;
+    width: 27px;
+    height: 27px;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    border-top-color: #000000;
+    animation: spinner .8s linear infinite;
+    margin: 0 auto;
+    right: 0%;
+}
+.cursor-not-allow{
+    cursor: not-allowed !important;
+}
+.back_btn[disabled]{
+    border: 1px solid #999999;
+    color: #666666; 
+    background: var(--grey-goose);
+}
+.error_icon{
+    width: 22%;
+}

@@ -1,0 +1,66 @@
+.persona_card{
+    position: relative;
+}
+.card_wrapper {
+    position: relative;
+}
+.card_wrapper_top{
+    background: var(--mediumSlateBlue);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 16px 16px;
+    /* box-shadow: 0px 2px 2px 0px #00000042; */
+    display: inline-block;
+    width: 100%;
+}
+.card_number{
+    background: var(--slateBlue);
+    padding: 8.5px 16px;
+    border-radius: 25px;
+    color: var(--white);
+    margin-right: 8px;
+}
+.card_count{
+    background: var(--slateBlue);
+    padding: 8.5px 11px;
+    color: var(--white);
+    border-radius: 10px 4px 4px 10px;
+    letter-spacing: 5px;
+}
+.card_wrapper_bottom{
+    background: var(--slateBlue);
+    padding: 16px 24px;
+    color: white;
+}
+.card_wrapper p{
+    margin: 0;
+    padding: 0;
+}
+.card_wrapper p:first-child{
+    font-size: var(--secondary-head-text);
+}
+.card_wrapper p:last-child{
+    font-size: var(--content-text);
+    margin-top: 8px;
+}
+.card_image{
+    position: absolute;
+    right: 17px;
+    bottom: 0;
+}
+.card_status{
+    background: white;
+    /* padding: 8.5px 11px; */
+    padding: 4px 16px;
+    border-radius: 4px 10px 10px 4px;
+    margin-left: 4px;
+}
+.ellipse{
+    margin-right: 8px;
+}
+.ellipse_text{
+    font-size: var(--card-secondary-head-text);
+}
+.slide_card{
+    margin-top: 10px;
+}

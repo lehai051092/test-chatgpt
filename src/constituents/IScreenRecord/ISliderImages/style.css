@@ -1,0 +1,26 @@
+.react-pdf__Document {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.react-pdf__Page__canvas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.popupWrapper{
+    opacity:0
+}
+
+/* .react-pdf__Page__canvas {
+    margin: 25% 0;
+}
+
+.react-pdf__Page {
+    top: 15%;
+} */

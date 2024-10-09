@@ -1,0 +1,80 @@
+[
+    {
+        "typeWord": "①質問の回数",
+        "word": "～ですか？",
+        "wordCount": 1,
+        "type":1.1
+    },
+    {
+        "typeWord": "①質問の回数",
+        "word": "～されましたか？",
+        "wordCount": 1,
+        "type":1.1
+    },
+    {
+        "typeWord": "③共感",
+        "word": "そうですよね～",
+        "wordCount": 1,
+        "type":1.2
+    },
+    {
+        "typeWord": "②クッション言葉",
+        "word": "差し支えなければ",
+        "wordCount": 1,
+        "type":1.3
+    },
+    {
+        "typeWord": "③共感",
+        "word": "そうですよね～",
+        "wordCount": 1,
+        "type":1.2
+    },
+    {
+        "typeWord": "④口癖",
+        "word": "あのー",
+        "wordCount": 1,
+        "type":1.4
+    },
+    {
+        "typeWord": "④口癖",
+        "word": "あのー",
+        "wordCount": 1,
+        "type":1.4
+    },
+    {
+        "typeWord": "④口癖",
+        "word": "そのー",
+        "wordCount": 1,
+        "type":1.4
+    },
+    {
+        "typeWord": "④口癖",
+        "word": "ちょっと",
+        "wordCount": 1,
+        "type":1.4
+    },
+    {
+        "typeWord": "④口癖",
+        "word": "えー",
+        "wordCount": 1,
+        "type":1.4
+    },
+    {
+        "typeWord": "④口癖",
+        "word": "えーと",
+        "wordCount": 1,
+        "type":1.4
+    },
+    {
+        "typeWord": "⑤NGワード",
+        "word": "絶対",
+        "wordCount": 1,
+        "type":1.5
+    },
+    {
+        "typeWord": "⑤NGワード",
+        "word": "古い",
+        "wordCount": 1,
+        "type":1.5
+    }
+]
